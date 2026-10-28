@@ -1,0 +1,30 @@
+[
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:coloneltso",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:coloneltsomeat-bushmeat-raw", "stackSize": 1}
+ },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:coloneltso",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:poultry-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:coloneltsomeat-poultry-raw", "stackSize": 1}
+ },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:coloneltso",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:redmeat-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:coloneltsomeat-redmeat-raw", "stackSize": 1}
+  },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:coloneltso",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:fish-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:coloneltsomeat-fish-raw", "stackSize": 1}
+  }
+]

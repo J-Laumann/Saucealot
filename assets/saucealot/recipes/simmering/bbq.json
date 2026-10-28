@@ -1,0 +1,33 @@
+[
+	{
+		"ingredients": [
+			{ "type": "item", "code": "game:vinegarportion", "quantity": 10 },
+			{ "type": "item", "code": "game:honeyportion", "quantity": 10 },
+			{ "type": "item", "code": "game:vegetable-onion", "quantity": 1 },
+			{ "type": "item", "code": "game:fruit-*", "quantity": 1, "name": "fruit" }
+		],
+		"simmering": {
+			"meltingPoint": 160,
+			"meltingDuration": 100,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "saucealot:bbq-{fruit}", "quantity": 20 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"ingredients": [
+			{ "type": "item", "code": "game:vinegarportion", "quantity": 10 },
+			{ "type": "item", "code": "game:honeyportion", "quantity": 20 },
+			{ "type": "item", "code": "game:vegetable-onion", "quantity": 1 }
+		],
+		"simmering": {
+			"meltingPoint": 160,
+			"meltingDuration": 100,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "saucealot:bbq-honey", "quantity": 20 },
+			"requiresContainer": false
+		}
+	}
+]

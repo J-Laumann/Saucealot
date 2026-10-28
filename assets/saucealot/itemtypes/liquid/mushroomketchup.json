@@ -1,0 +1,138 @@
+{
+	"code": "mushroomketchup",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{ "code": "mushroom", "loadFromProperties": "block/mushroom" }
+	],
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true,
+			"groupBy": ["mushroomketchup-*"]
+		},
+		"inBowlShape": { "base": "game:block/meal/liquid" },
+		"eatHealthEffectDurationSec": 10,
+		"eatHealthEffectTicks": 10,
+		"nutritionPropsWhenInMeal": {
+			"satiety": 120,
+			"foodcategory": "Vegetable",
+			"healthByType": {
+				"*-flyagaric": -6.5,
+				"*-earthball": -8,
+				"*-deathcap": -50,
+				"*-elfinsaddle": -7,
+				"*-jackolantern": -6,
+				"*-devilbolete": -10,
+				"*-bitterbolete": -1,
+				"*-devilstooth": -2,
+				"*-golddropmilkcap": -2.5,
+				"*-laughingjim": -10,
+				"*-foolsconecap": -20,
+				"*-sickener": -7,
+				"*-funeralbell": -40,
+				"*-pinkbonnet": -10,
+				"*": 0
+			},
+			"psychedelicByType": {
+				"*-flyagaric": 0.4,
+				"*-goldcap": 1,
+				"*-libertycap": 1.4,
+				"*-wavycap": 0.8,
+				"*-bluemeanie": 2,
+				"*-laughingjim": 0.6
+			}
+		},
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*-flyagaric": { "base": "game:block/plant/mushroom/flyagariccap" },
+				"*-fieldmushroom": { "base": "game:block/plant/mushroom/fieldmushroomcap" },
+				"*-reishi": { "base": "game:block/plant/mushroom/tinderhoof" },
+				"*-shiitake": { "base": "game:block/plant/mushroom/paddystraw" },
+				"*": { "base": "game:block/plant/mushroom/{mushroom}" }
+			},
+			"allowSpill": true,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "saucealot:mushroomketchup-{mushroom}" }
+			},
+			"nutritionPropsPerLitre": {
+				"satiety": 200,
+				"foodcategory": "Vegetable",
+				"healthByType": {
+					"*-flyagaric": -16.25,
+					"*-earthball": -20,
+					"*-deathcap": -125,
+					"*-elfinsaddle": -17.5,
+					"*-jackolantern": -15,
+					"*-devilbolete": -25,
+					"*-bitterbolete": -2.5,
+					"*-devilstooth": -5,
+					"*-golddropmilkcap": -6.25,
+					"*-laughingjim": -25,
+					"*-foolsconecap": -50,
+					"*-sickener": -17.5,
+					"*-funeralbell": -100,
+					"*-pinkbonnet": -25,
+					"*": 0
+				},
+				"psychedelicByType": {
+					"*-flyagaric": 1,
+					"*-goldcap": 2.5,
+					"*-libertycap": 3.5,
+					"*-wavycap": 2,
+					"*-bluemeanie": 5,
+					"*-laughingjim": 1.5
+				}
+			}
+		}
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texturebytype": {
+		"*-flyagaric": { "base": "game:block/plant/mushroom/flyagariccap" },
+		"*-fieldmushroom": { "base": "game:block/plant/mushroom/fieldmushroomcap" },
+		"*-reishi": { "base": "game:block/plant/mushroom/tinderhoof" },
+		"*-shiitake": { "base": "game:block/plant/mushroom/paddystraw" },
+		"*": { "base": "game:block/plant/mushroom/{mushroom}" }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "saucealot"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "saucealot:mushroomketchup-{mushroom}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 100,
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 2160 },
+		"transitionHours": { "avg": 1440 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 1.0
+	}],
+	"nutritionPropsByType": {
+		"*-flyagaric": { "satiety": 80, "health": -6.5, "foodcategory": "Vegetable", "psychedelic": 0.4 },
+		"*-earthball": { "satiety": 80, "health": -8, "foodcategory": "Vegetable" },
+		"*-deathcap": { "satiety": 80, "health": -50, "foodcategory": "Vegetable" },
+		"*-elfinsaddle": { "satiety": 80, "health": -7, "foodcategory": "Vegetable" },
+		"*-jackolantern": { "satiety": 80, "health": -6, "foodcategory": "Vegetable" },
+		"*-devilbolete": { "satiety": 80, "health": -10, "foodcategory": "Vegetable" },
+		"*-bitterbolete": { "satiety": 80, "health": -1, "foodcategory": "Vegetable" },
+		"*-devilstooth": { "satiety": 80, "health": -2, "foodcategory": "Vegetable" },
+		"*-golddropmilkcap": { "satiety": 80, "health": -2.5, "foodcategory": "Vegetable" },
+		"*-goldcap": { "satiety": 80, "foodcategory": "Vegetable", "psychedelic": 1 },
+		"*-libertycap": { "satiety": 80, "foodcategory": "Vegetable", "psychedelic": 1.4 },
+		"*-wavycap": { "satiety": 80, "foodcategory": "Vegetable", "psychedelic": 0.8 },
+		"*-bluemeanie": { "satiety": 80, "foodcategory": "Vegetable", "psychedelic": 2 },
+		"*-laughingjim": { "satiety": 80, "health": -10, "foodcategory": "Vegetable", "psychedelic": 0.6 },
+		"*-foolsconecap": { "satiety": 80, "health": -20, "foodcategory": "Vegetable" },
+		"*-sickener": { "satiety": 80, "health": -7, "foodcategory": "Vegetable" },
+		"*-funeralbell": { "satiety": 80, "health": -40, "foodcategory": "Vegetable" },
+		"*-pinkbonnet": { "satiety": 80, "health": -10, "foodcategory": "Vegetable" },
+		"*": { "satiety": 80, "health": 0, "foodcategory": "Vegetable" }
+	},
+	"guiTransform": {
+		"rotation": { "x": 128, "y": 40, "z": 7 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}

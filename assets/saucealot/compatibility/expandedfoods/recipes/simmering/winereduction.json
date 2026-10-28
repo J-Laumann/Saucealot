@@ -1,0 +1,42 @@
+[
+	{
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "expandedfoods:strongwineportion-*",
+				"quantity": 20,
+				"name": "fruit",
+				"skipVariants": ["mead", "spelt", "rice", "rye", "amaranth", "cassava"]
+			},
+			{ "type": "item", "code": "game:fat-rendered", "quantity": 1 }
+		],
+		"simmering": {
+			"meltingPoint": 160,
+			"meltingDuration": 150,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "saucealot:winereduction-{fruit}", "quantity": 50 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "expandedfoods:potentwineportion-*",
+				"quantity": 20,
+				"name": "fruit",
+				"skipVariants": ["mead", "spelt", "rice", "rye", "amaranth", "cassava"]
+			},
+			{ "type": "item", "code": "game:fat-rendered", "quantity": 1 }
+		],
+		"simmering": {
+			"meltingPoint": 160,
+			"meltingDuration": 150,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "saucealot:winereduction-{fruit}", "quantity": 60 },
+			"requiresContainer": false
+		}
+	}
+]

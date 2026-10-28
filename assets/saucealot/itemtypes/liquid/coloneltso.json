@@ -1,0 +1,47 @@
+{
+	"code": "coloneltso",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true
+		},
+		"inBowlShape": { "base": "game:block/meal/liquid" },
+		"nutritionPropsWhenInMeal": { "satiety": 100, "health": 1, "foodcategory": "Protein" },
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": { "base": "game:block/liquid/dye/brown" },
+			"allowSpill": true,
+			"whenSpilled": { 
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "saucealot:coloneltso" } 
+			},
+			"nutritionPropsPerLitre": { "saturation": 150, "health": 1, "foodcategory": "Protein" }
+		}
+	},
+	"shape": { "base": "game:item/liquid" },
+	"textures": {
+		"material": { "base": "game:block/liquid/dye/brown" }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "saucealot"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "saucealot:coloneltso", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 100,
+	"transitionablePropsByType": {
+		"*":[{
+    		"type": "Perish",
+    		"freshHours": { "avg": 2760 },
+    		"transitionHours": { "avg": 2760 },
+    		"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1.0
+		}]
+	},
+	"guiTransform": {
+		"rotation": { "x": 128, "y": 40, "z": 7 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}

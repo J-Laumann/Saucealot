@@ -1,0 +1,22 @@
+[
+	{
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:ciderportion-*",
+				"quantity": 20,
+				"name": "fruit",
+				"skipVariants": ["mead", "spelt", "rice", "rye", "amaranth", "cassava"]
+			},
+			{ "type": "item", "code": "game:fat-rendered", "quantity": 1 }
+		],
+		"simmering": {
+			"meltingPoint": 160,
+			"meltingDuration": 150,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "saucealot:winereduction-{fruit}", "quantity": 40 },
+			"requiresContainer": false
+		}
+	}
+]

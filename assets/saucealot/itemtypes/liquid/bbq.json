@@ -1,0 +1,52 @@
+{
+	"code": "bbq",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{ "code": "fruit", "states": ["blueberry","cranberry","redcurrant","whitecurrant","blackcurrant","saguaro","pineapple","redapple","yellowapple","pinkapple","cherry","peach","pear","orange","mango","lychee","pomegranate", "honey", "strawberry", "lingonberry", "blackberry", "breadfruit", "beautyberry", "cloudberry", "raspberry"] }
+	],
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true,
+			"groupBy": ["bbq-*"]
+		},
+		"inBowlShape": { "base": "game:block/meal/liquid" },
+		"nutritionPropsWhenInMeal": { "satiety": 100, "health": 1, "foodcategory": "Fruit" },
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": { "base": "game:block/food/pie/fill-redmeat" },
+			"allowSpill": true,
+			"whenSpilled": { 
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "saucealot:bbq-{fruit}" } 
+			},
+			"nutritionPropsPerLitre": { "saturation": 100, "health": 1, "foodcategory": "Fruit" }
+		}
+	},
+	"shape": { "base": "game:item/liquid" },
+	"textures": {
+		"material": { "base": "game:block/food/pie/fill-redmeat" }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "saucealot"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "saucealot:bbq-{fruit}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 100,
+	"transitionablePropsByType": {
+		"*":[{
+    		"type": "Perish",
+    		"freshHours": { "avg": 2760 },
+    		"transitionHours": { "avg": 2760 },
+    		"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1.0
+		}]
+	},
+	"nutritionProps": { "saturation": 100, "health": 1, "foodcategory": "Fruit" },
+	"guiTransform": {
+		"rotation": { "x": 128, "y": 40, "z": 7 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}

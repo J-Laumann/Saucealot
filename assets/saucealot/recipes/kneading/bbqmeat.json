@@ -1,0 +1,31 @@
+[
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:bbq-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:bbqmeat-bushmeat-raw", "stackSize": 1}
+ },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:bbq-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:poultry-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:bbqmeat-poultry-raw", "stackSize": 1}
+ },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:bbq-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:redmeat-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:bbqmeat-redmeat-raw", "stackSize": 1}
+  },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:bbq-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:fish-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:bbqmeat-fish-raw", "stackSize": 1}
+  }
+]
+

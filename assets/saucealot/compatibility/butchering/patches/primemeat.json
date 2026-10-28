@@ -1,0 +1,266 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "primemeat",
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-primemeat-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": { "base": "butchering:items/resources/primemeat" },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-raw",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/rawprimemeat" } },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cookedpartbaked",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/pbprimemeat" } },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cooked",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/cookedprimemeat" } },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cookedcharred",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/charredprimemeat" } },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cookedpartbaked",
+    "value": { "satiety": 380, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cooked",
+    "value": { "satiety": 420, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cookedcharred",
+    "value": { "satiety": 400, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "primemeat",
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-primemeat-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": { "base": "butchering:items/resources/primemeat" },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-raw",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/rawprimemeat" } },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cookedpartbaked",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/pbprimemeat" } },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cooked",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/cookedprimemeat" } },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cookedcharred",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/charredprimemeat" } },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cookedpartbaked",
+    "value": { "satiety": 380, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cooked",
+    "value": { "satiety": 420, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cookedcharred",
+    "value": { "satiety": 400, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "primemeat",
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-primemeat-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": { "base": "butchering:items/resources/primemeat" },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-raw",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/rawprimemeat" } },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cookedpartbaked",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/pbprimemeat" } },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cooked",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/cookedprimemeat" } },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-primemeat-cookedcharred",
+    "value": { "raw": { "base": "saucealot:item/food/bbqmeat/charredprimemeat" } },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cookedpartbaked",
+    "value": { "satiety": 380, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cooked",
+    "value": { "satiety": 420, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-primemeat-cookedcharred",
+    "value": { "satiety": 400, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+      { "type": "item", "code": "saucealot:bbqmeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+      { "type": "item", "code": "saucealot:coloneltsomeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+      { "type": "item", "code": "saucealot:winereductionmeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+      { "type": "item", "code": "saucealot:bbqmeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+      { "type": "item", "code": "saucealot:coloneltsomeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+      { "type": "item", "code": "saucealot:winereductionmeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+      { "type": "item", "code": "saucealot:bbqmeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+      { "type": "item", "code": "saucealot:coloneltsomeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+      { "type": "item", "code": "saucealot:winereductionmeat-primemeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {"inputs": [{ "type": "item", "code": "saucealot:bbq-*",  "quantity": 10 }]},
+        {"inputs": [{ "type": "item", "code": "butchering:primemeat-raw", "quantity": 1 }]}
+      ],
+      "output": { "type": "item", "code": "saucealot:bbqmeat-primemeat-raw", "stackSize": 1}
+    },
+    "file": "saucealot:recipes/kneading/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {"inputs": [{ "type": "item", "code": "saucealot:coloneltso",  "quantity": 10 }]},
+        {"inputs": [{ "type": "item", "code": "butchering:primemeat-raw", "quantity": 1 }]}
+      ],
+      "output": { "type": "item", "code": "saucealot:coloneltsomeat-primemeat-raw", "stackSize": 1}
+    },
+    "file": "saucealot:recipes/kneading/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {"inputs": [{ "type": "item", "code": "saucealot:winereduction-*",  "quantity": 10 }]},
+        {"inputs": [{ "type": "item", "code": "butchering:primemeat-raw", "quantity": 1 }]}
+      ],
+      "output": { "type": "item", "code": "saucealot:winereductionmeat-primemeat-raw", "stackSize": 1}
+    },
+    "file": "saucealot:recipes/kneading/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  }
+]

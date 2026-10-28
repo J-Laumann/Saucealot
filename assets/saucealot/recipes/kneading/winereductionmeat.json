@@ -1,0 +1,31 @@
+[
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:winereduction-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:winereductionmeat-bushmeat-raw", "stackSize": 1}
+ },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:winereduction-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:poultry-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:winereductionmeat-poultry-raw", "stackSize": 1}
+ },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:winereduction-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:redmeat-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:winereductionmeat-redmeat-raw", "stackSize": 1}
+  },
+  {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "saucealot:winereduction-*",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "game:fish-raw", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "saucealot:winereductionmeat-fish-raw", "stackSize": 1}
+  }
+]
+

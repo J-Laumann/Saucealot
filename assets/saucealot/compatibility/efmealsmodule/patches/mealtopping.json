@@ -1,0 +1,170 @@
+[
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "efmealsmodule:recipes/cooking/augratin.json"
+	},
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "efmealsmodule:recipes/cooking/compote.json"
+	},
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "efmealsmodule:recipes/cooking/pastahot.json"
+	},
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "efmealsmodule:recipes/cooking/riceandbeans.json"
+	},
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "efmealsmodule:recipes/mixing/pastacold.json"
+	},
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "efmealsmodule:recipes/mixing/salad.json"
+	},
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "efmealsmodule:recipes/mixing/yogurtmeal.json"
+	}
+]

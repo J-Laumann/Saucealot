@@ -1,0 +1,122 @@
+[
+	{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/bbq.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/food/pie/fill-redmeat" }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/coloneltso.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/liquid/dye/brown" }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/winereduction.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/food/pie/fill-{fruit}", "alpha": 200 }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/whitegravy.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/food/dairy/milk", "alpha": 220 }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/browngravy.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/liquid/dye/brown", "alpha": 200 }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/queso.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/food/pie/fill-cheddar", "alpha": 220 }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	}
+
+	,{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/mushroomketchup.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/plant/mushroom/{mushroom}" }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	}
+]

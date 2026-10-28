@@ -1,0 +1,13 @@
+{
+  "type": "content",
+  "name": "Sauce-a-lot",
+  "version": "2.3.2",
+  "networkVersion": null,
+  "description": "New recipes for lots of sauces!",
+  "modID": "saucealot",
+  "authors": ["ColonelCalcium"],
+  "dependencies": {
+    "game": "",
+    "aculinaryartillery": ""
+  }
+}

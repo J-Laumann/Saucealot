@@ -1,0 +1,45 @@
+[
+	{
+		"op": "addeach",
+		"path": "/ingredients/9/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+			{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+		],
+		"side": "server",
+		"file": "game:recipes/cooking/scrambledeggs.json",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/ingredients/-",
+		"value": {
+			"code": "topping-saucealot",
+			"validStacks": [
+				{ "type": "item", "code": "saucealot:bbq-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:coloneltso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:winereduction-*", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.1,
+			"typeName": "topping"
+		},
+		"side": "server",
+		"file": "game:recipes/cooking/scrambledeggs.json",
+		"dependsOn": [{ "modid": "expandedfoods", "invert": true }]
+	}
+]

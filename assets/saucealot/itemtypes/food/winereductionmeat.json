@@ -1,0 +1,314 @@
+{
+	"code": "winereductionmeat",
+	"maxstacksize": 64,
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"handbook": { "groupBy": [ "winereductionmeat-*" ] },
+		"nutritionPropsWhenInMealByType": {
+			"winereductionmeat-bushmeat-raw": {"satiety": 200, "foodcategory": "Protein"},
+			"winereductionmeat-redmeat-raw": {"satiety": 480, "foodcategory": "Protein"},
+			"winereductionmeat-poultry-raw": {"satiety": 340, "foodcategory": "Protein"},
+			"winereductionmeat-fish-raw": {"satiety": 200, "foodcategory": "Protein"}
+		},
+		"bakingPropertiesByType": {
+			"*-bushmeat-raw": {
+				"temp": 150,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+				"onDisplayTransform": {
+					"scale": 0.85,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": -0.0625, "y": 0.21875, "z": 0.0625 },
+					"rotation": { "x": 0, "y": 53, "z": 90 }
+				}
+			},
+			"*-poultry-raw": {
+				"temp": 150,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+				"onDisplayTransform": {
+					"scale": 0.85,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": -0.0625, "y": 0.1875, "z": 0.0625 },
+					"rotation": { "x": 0, "y": 53, "z": 90 }
+				}
+			},
+			"*-redmeat-raw": {
+				"temp": 150,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+				"onDisplayTransform": {
+					"scale": 0.9,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+					"rotation": { "x": 0, "y": 53, "z": 90 }
+				}
+			},
+			"*-fish-raw": {
+				"temp": 150,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+				"onDisplayTransform": {
+					"scale": 0.8,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": 0, "y": 0.1875, "z": 0 },
+					"rotation": { "x": 0, "y": 53, "z": -90 }
+				}
+			},
+			"*-cookedpartbaked": {
+				"temp": 150,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:winereductionmeat-{meat}-cooked",
+				"initialCode": "saucealot:winereductionmeat-{meat}-raw"
+			},
+			"*-cooked": {
+				"temp": 150,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:winereductionmeat-{meat}-cookedcharred",
+				"initialCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked"
+			},
+			"*-cookedcharred": {
+				"temp": 150,
+				"levelFrom": 0.75,
+				"levelTo": 1.0,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"initialCode": "saucealot:winereductionmeat-{meat}-cooked"
+			}
+		},
+		"onDisplayTransformByType": { 
+			"@*-(raw|cookedpartbaked|cooked|cookedcharred)": {
+				"translation": { "x": 0, "y": 0.25, "z": 0 },
+				"scale": 1.5 
+			},
+			"*": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
+			}
+		},
+    	"inPiePropertiesByType": {
+      		"winereductionmeat-redmeat-raw": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
+      		"winereductionmeat-bushmeat-raw": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling" },
+      		"winereductionmeat-poultry-raw": { "texture": "game:block/food/pie/fill-poultry", "partType": "Filling" },
+      		"winereductionmeat-fish-raw": { "texture": "game:block/food/pie/fill-fish", "partType": "Filling" }
+    	},
+		"inFirePitPropsByType": {
+			"*-bushmeat-*": {
+				"transform": {
+					"scale": 0.85,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": -0.0625, "y": 0.21875, "z": 0.0625 },
+					"rotation": { "x": 0, "y": 53, "z": 90 }
+				},
+				"useFirepitModel": "Spit"
+			},
+			"*-poultry-*": {
+				"transform": {
+					"scale": 0.85,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": -0.0625, "y": 0.1875, "z": 0.0625 },
+					"rotation": { "x": 0, "y": 53, "z": 90 }
+				},
+				"useFirepitModel": "Spit"
+			},
+			"*-redmeat-*": {
+				"transform": {
+					"scale": 0.9,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+					"rotation": { "x": 0, "y": 53, "z": 90 }
+				},
+				"useFirepitModel": "Spit"
+			},
+			"*-fish-*": {
+				"transform": {
+					"scale": 0.8,
+					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+					"translation": { "x": 0, "y": 0.1875, "z": 0 },
+					"rotation": { "x": 0, "y": 53, "z": -90 }
+				},
+				"useFirepitModel": "Spit"
+			}
+		}
+	},
+	"variantgroups": [
+		{ "code": "meat", "states": ["bushmeat", "poultry", "redmeat", "fish"]},	
+		{ "code": "type", "states": ["raw", "cookedpartbaked", "cooked", "cookedcharred" ] }
+	],
+	"shapebytype":	{
+		"@*-redmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {"base": "game:item/food/meat/red"},
+		"@*-bushmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {"base": "game:item/food/meat/{meat}"},
+		"@*-poultry-(cookedpartbaked|cooked|cookedcharred|raw)": {"base": "game:item/food/meat/{meat}"},
+		"@*-fish-(cookedpartbaked|cooked|cookedcharred|raw)": {"base": "game:item/food/meat/fish"}
+	},
+	"texturesByType": {
+		"@*-(redmeat|bushmeat|poultry|fish)-raw": {
+			"meat": {"base": "item/food/bbqmeat/raw"},
+			"raw": {"base": "item/food/bbqmeat/raw"}
+		  },
+		  "@*-(redmeat|bushmeat|poultry|fish)-cookedpartbaked": {
+			"meat": {"base": "item/food/bbqmeat/partbaked"},
+			"raw": {"base": "item/food/bbqmeat/partbaked"}
+		  },
+		  "@*-(redmeat|bushmeat|poultry|fish)-cooked": {
+			"meat": {"base": "item/food/bbqmeat/cooked"},
+			"raw": {"base": "item/food/bbqmeat/cooked"}
+		  },
+		  "@*-(redmeat|bushmeat|poultry|fish)-cookedcharred": {
+			"meat": {"base": "item/food/bbqmeat/charred"},
+			"raw": {"base": "item/food/bbqmeat/charred"}
+		  }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "saucealot": ["*"] },
+	"nutritionPropsByType": {
+		"*-bushmeat-cookedpartbaked": { "satiety": 132, "foodcategory": "Protein" },
+		"*-poultry-cookedpartbaked": { "satiety": 215, "foodcategory": "Protein" },
+		"*-redmeat-cookedpartbaked": { "satiety": 300, "foodcategory": "Protein" },
+		"*-fish-cookedpartbaked": { "satiety": 115, "foodcategory": "Protein" },
+
+		"*-bushmeat-cooked": { "satiety": 150, "foodcategory": "Protein" },
+		"*-poultry-cooked": { "satiety": 240, "foodcategory": "Protein" },
+		"*-redmeat-cooked": { "satiety": 330, "foodcategory": "Protein" },
+		"*-fish-cooked": { "satiety": 130, "foodcategory": "Protein" },
+
+		"*-bushmeat-cookedcharred": { "satiety": 135, "foodcategory": "Protein" },
+		"*-poultry-cookedcharred": { "satiety": 220, "foodcategory": "Protein" },
+		"*-redmeat-cookedcharred": { "satiety": 310, "foodcategory": "Protein" },
+		"*-fish-cookedcharred": { "satiety": 115, "foodcategory": "Protein" }
+	},
+	"transitionablePropsByType": {
+		"*-raw": [{
+			"type": "Perish",
+			"freshHours": { "avg": 36 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"@*-(cookedpartbaked|cooked)": [{
+			"type": "Perish",
+			"freshHours": { "avg": 120 },
+			"transitionHours": { "avg": 36 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"*-cookedcharred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 240 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*-bushmeat-*": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 171, "y": -122, "z": 33 },
+			"origin": { "x": 0.5, "y": 0.04, "z": 0.53 },
+			"scale": 4.72
+		},
+		"*-poultry-*": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 171, "y": -122, "z": 33 },
+			"origin": { "x": 0.5, "y": 0.04, "z": 0.53 },
+			"scale": 4.72
+		},
+		"*-redmeat-*": {
+			"rotate": false,
+			"translation": { "x": 0.5, "y": 0, "z": 0 },
+			"rotation": { "x": 171, "y": -122, "z": 33 },
+			"origin": { "x": 0.4, "y": 0.08, "z": 0.5 },
+			"scale": 4.72
+		},
+		"*-fish-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -22.5, "y": -44, "z": -158 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 2.81
+		},
+		"*": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 171, "y": -122, "z": 33 },
+			"origin": { "x": 0.5, "y": 0.04, "z": 0.53 },
+			"scale": 4.72
+		}
+	},
+	"tpHandTransformByType": {
+		"*-bushmeat-*": {
+			"translation": { "x": -0.04, "y": 0.26, "z": -0.04 },
+			"rotation": { "x": -78, "y": 15, "z": 0 },
+			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+			"scale": 0.92
+		},
+		"*-poultry-*": {
+			"translation": { "x": -0.07, "y": -0.36, "z": -0.14 },
+			"rotation": { "x": 85, "y": 9, "z": 3 },
+			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+			"scale": 0.75
+		},
+		"*-redmeat-*": {
+			"translation": { "x": -0.1, "y": 0.26, "z": -0.04 },
+			"rotation": { "x": -78, "y": 15, "z": 0 },
+			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+			"scale": 0.92
+		},
+		"*-fish-*": {
+			"translation": { "x": -0.89, "y": -0.2, "z": -0.91 },
+			"rotation": { "x": -106, "y": -1, "z": -5 },
+			"origin": { "x": 0.5, "y": 0.12, "z": 0.54 },
+			"scale": 0.65
+		},
+		"*": {
+			"translation": { "x": -0.04, "y": 0.26, "z": -0.04 },
+			"rotation": { "x": -78, "y": 15, "z": 0 },
+			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+			"scale": 0.92
+		}
+	},
+	"groundTransformByType": {
+		"*-fish-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 180, "y": 33, "z": -180 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 5
+		}
+	},
+	"combustiblePropsByType": {
+		"@*-(raw|cookedpartbaked|cooked)": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:winereductionmeat-{meat}-cookedcharred" },
+			"requiresContainer": false
+		}
+	}
+}
