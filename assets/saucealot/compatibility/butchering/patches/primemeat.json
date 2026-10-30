@@ -64,6 +64,55 @@
   },
   {
     "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-primemeat-raw",
+    "value": {
+      "temp": 150,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+      "onDisplayTransform": {
+        "scale": 0.9,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+        "rotation": { "x": 0, "y": 53, "z": 90 }
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/bbqmeat-primemeat-raw",
+    "value": { "satiety": 600, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/bbqmeat-primemeat-raw",
+    "value": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-primemeat-*",
+    "value": {
+      "transform": {
+        "scale": 0.9,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+        "rotation": { "x": 0, "y": 53, "z": 90 }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
     "path": "/variantgroups/0/states/-",
     "value": "primemeat",
     "file": "saucealot:itemtypes/food/coloneltsomeat.json",
@@ -127,6 +176,55 @@
   },
   {
     "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-primemeat-raw",
+    "value": {
+      "temp": 150,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+      "onDisplayTransform": {
+        "scale": 0.9,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+        "rotation": { "x": 0, "y": 53, "z": 90 }
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/coloneltsomeat-primemeat-raw",
+    "value": { "satiety": 600, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/coloneltsomeat-primemeat-raw",
+    "value": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-primemeat-*",
+    "value": {
+      "transform": {
+        "scale": 0.9,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+        "rotation": { "x": 0, "y": 53, "z": 90 }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
     "path": "/variantgroups/0/states/-",
     "value": "primemeat",
     "file": "saucealot:itemtypes/food/winereductionmeat.json",
@@ -185,6 +283,55 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-primemeat-cookedcharred",
     "value": { "satiety": 400, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-primemeat-raw",
+    "value": {
+      "temp": 150,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+      "onDisplayTransform": {
+        "scale": 0.9,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+        "rotation": { "x": 0, "y": 53, "z": 90 }
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/winereductionmeat-primemeat-raw",
+    "value": { "satiety": 600, "foodcategory": "Protein" },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/winereductionmeat-primemeat-raw",
+    "value": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-primemeat-*",
+    "value": {
+      "transform": {
+        "scale": 0.9,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+        "rotation": { "x": 0, "y": 53, "z": 90 }
+      },
+      "useFirepitModel": "Spit"
+    },
     "file": "saucealot:itemtypes/food/winereductionmeat.json",
     "dependsOn": [{ "modid": "butchering" }]
   },
