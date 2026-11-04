@@ -331,31 +331,31 @@
   "game:meal-ingredient-soup-primary-coloneltsomeat-primemeat-*": "Colonel Tso's prime meat",
   "game:meal-ingredient-soup-secondary-coloneltsomeat-primemeat-*": "Colonel Tso's prime meat",
 
-  "itemdesc-coloneltsomeat-redmeat-raw": "Redmeat slathered in Colonel Tso's sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-coloneltsomeat-redmeat-raw": "Redmeat slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-coloneltsomeat-redmeat-*": "Redmeat slathered in Colonel Tso's sauce, now a delicious meal!",
   
-  "itemdesc-coloneltsomeat-poultry-raw": "Poultry slathered in Colonel Tso's sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-coloneltsomeat-poultry-raw": "Poultry slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-coloneltsomeat-poultry-*": "Poultry slathered in Colonel Tso's sauce, now a delicious meal!",
   
-  "itemdesc-coloneltsomeat-bushmeat-raw": "Bushmeat slathered in Colonel Tso's sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-coloneltsomeat-bushmeat-raw": "Bushmeat slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-coloneltsomeat-bushmeat-*": "Bushmeat slathered in Colonel Tso's sauce, now a delicious meal!",
 
-  "itemdesc-coloneltsomeat-fish-raw": "Fish slathered in Colonel Tso's sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-coloneltsomeat-fish-raw": "Fish slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-coloneltsomeat-fish-*": "Fish slathered in Colonel Tso's sauce, now a delicious meal!",
   
-  "itemdesc-coloneltsomeat-primemeat-raw": "Prime meat slathered in Colonel Tso's sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-coloneltsomeat-primemeat-raw": "Prime meat slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-coloneltsomeat-primemeat-*": "Prime meat slathered in Colonel Tso's sauce, now a delicious meal!",
   
-  "itemdesc-bbqmeat-redmeat-raw": "Redmeat slathered in tangy barbecue sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-bbqmeat-redmeat-raw": "Redmeat slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-bbqmeat-redmeat-*": "Redmeat slathered in tangy barbecue sauce, now a delicious meal!",
 
-  "itemdesc-bbqmeat-fish-raw": "Fish slathered in tangy barbecue sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-bbqmeat-fish-raw": "Fish slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-bbqmeat-fish-*": "Fish slathered in tangy barbecue sauce, now a delicious meal!",
   
-  "itemdesc-bbqmeat-poultry-raw": "Poultry slathered in tangy barbecue sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-bbqmeat-poultry-raw": "Poultry slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-bbqmeat-poultry-*": "Poultry slathered in tangy barbecue sauce, now a delicious meal!",
   
-  "itemdesc-bbqmeat-bushmeat-raw": "Bushmeat slathered in tangy barbecue sauce, bake for a delectable meal or use it in tangy meat stew.",
+  "itemdesc-bbqmeat-bushmeat-raw": "Bushmeat slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-bbqmeat-bushmeat-*": "Bushmeat slathered in tangy barbecue sauce, now a delicious meal!",
 
   "item-bbqmeat-primemeat-raw": "Raw barbecued prime meat",
@@ -372,7 +372,7 @@
   "game:meal-ingredient-soup-primary-bbqmeat-primemeat-*": "barbecued prime meat",
   "game:meal-ingredient-soup-secondary-bbqmeat-primemeat-*": "barbecued prime meat",
 
-  "itemdesc-bbqmeat-primemeat-raw": "Prime meat slathered in tangy barbecue sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-bbqmeat-primemeat-raw": "Prime meat slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-bbqmeat-primemeat-*": "Prime meat slathered in tangy barbecue sauce, now a delicious meal!",
 
   "itemdesc-winereduction-*": "A rich sauce simmered from fruit wine and rendered fat. The alcohol cooks off, leaving concentrated flavor.",
@@ -599,7 +599,7 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-bushmeat-*": "wine-glazed bushmeat",
   "game:meal-ingredient-soup-secondary-winereductionmeat-bushmeat-*": "wine-glazed bushmeat",
 
-  "itemdesc-winereductionmeat-bushmeat-raw": "Bushmeat glazed in wine reduction sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-winereductionmeat-bushmeat-raw": "Bushmeat glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-winereductionmeat-bushmeat-*": "Bushmeat glazed in wine reduction sauce, now a delicious meal!",
 
   "item-winereductionmeat-fish-raw": "Raw wine-glazed fish",
@@ -616,7 +616,7 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-fish-*": "wine-glazed fish",
   "game:meal-ingredient-soup-secondary-winereductionmeat-fish-*": "wine-glazed fish",
 
-  "itemdesc-winereductionmeat-fish-raw": "Fish glazed in wine reduction sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-winereductionmeat-fish-raw": "Fish glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-winereductionmeat-fish-*": "Fish glazed in wine reduction sauce, now a delicious meal!",
 
   "item-winereductionmeat-poultry-raw": "Raw wine-glazed poultry",
@@ -633,7 +633,7 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-poultry-*": "wine-glazed poultry",
   "game:meal-ingredient-soup-secondary-winereductionmeat-poultry-*": "wine-glazed poultry",
 
-  "itemdesc-winereductionmeat-poultry-raw": "Poultry glazed in wine reduction sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-winereductionmeat-poultry-raw": "Poultry glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-winereductionmeat-poultry-*": "Poultry glazed in wine reduction sauce, now a delicious meal!",
 
   "item-winereductionmeat-primemeat-raw": "Raw wine-glazed prime meat",
@@ -650,7 +650,7 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-primemeat-*": "wine-glazed prime meat",
   "game:meal-ingredient-soup-secondary-winereductionmeat-primemeat-*": "wine-glazed prime meat",
 
-  "itemdesc-winereductionmeat-primemeat-raw": "Prime meat glazed in wine reduction sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-winereductionmeat-primemeat-raw": "Prime meat glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-winereductionmeat-primemeat-*": "Prime meat glazed in wine reduction sauce, now a delicious meal!",
 
   "item-winereductionmeat-redmeat-raw": "Raw wine-glazed redmeat",
@@ -667,7 +667,7 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-redmeat-*": "wine-glazed redmeat",
   "game:meal-ingredient-soup-secondary-winereductionmeat-redmeat-*": "wine-glazed redmeat",
 
-  "itemdesc-winereductionmeat-redmeat-raw": "Redmeat glazed in wine reduction sauce, bake for a delectable meal or use it in meat stew.",
+  "itemdesc-winereductionmeat-redmeat-raw": "Redmeat glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
   "itemdesc-winereductionmeat-redmeat-*": "Redmeat glazed in wine reduction sauce, now a delicious meal!",
 
   "item-whitegravy": "White gravy",
@@ -1077,5 +1077,158 @@
   "recipeingredient-item-mushroomketchup-wavycap": "wavy cap ketchup",
   "recipeingredient-item-mushroomketchup-wavycap-insturmentalcase": "wavy cap ketchup",
   "item-handbooktitle-mushroomketchup": "Mushroom ketchup",
-  "item-handbooktext-mushroomketchup": "Simmer any mushroom with salt, vinegar, and onion to make a ketchup that retains that mushroom's nourishment. This includes poisons and psychedelic effects."
+  "item-handbooktext-mushroomketchup": "Simmer any mushroom with salt, vinegar, and onion to make a ketchup that retains that mushroom's nourishment. This includes poisons and psychedelic effects.",
+
+  "item-bbqmeat-bisonleg-raw": "Raw barbecued bison leg",
+  "item-bbqmeat-bisonleg-cookedpartbaked": "Cooked barbecued bison leg (part-baked)",
+  "item-bbqmeat-bisonleg-cooked": "Cooked barbecued bison leg",
+  "item-bbqmeat-bisonleg-cookedcharred": "Cooked barbecued bison leg (charred)",
+
+  "game:recipeingredient-item-bbqmeat-bisonleg-*": "barbecued bison leg",
+  "game:recipeingredient-item-bbqmeat-bisonleg-*-insturmentalcase": "barbecued bison leg",
+  "recipeingredient-item-bbqmeat-bisonleg-*": "barbecued bison leg",
+  "recipeingredient-item-bbqmeat-bisonleg-*-insturmentalcase": "barbecued bison leg",
+  "game:meal-ingredient-stew-primary-bbqmeat-bisonleg-*": "barbecued bison leg",
+  "game:meal-ingredient-stew-secondary-bbqmeat-bisonleg-*": "barbecued bison leg",
+  "game:meal-ingredient-soup-primary-bbqmeat-bisonleg-*": "barbecued bison leg",
+  "game:meal-ingredient-soup-secondary-bbqmeat-bisonleg-*": "barbecued bison leg",
+
+  "itemdesc-bbqmeat-bisonleg-raw": "Bison leg slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-bbqmeat-bisonleg-*": "Bison leg slathered in tangy barbecue sauce, now a delicious meal!",
+
+  "item-bbqmeat-ribs-raw": "Raw barbecued boar ribs",
+  "item-bbqmeat-ribs-cookedpartbaked": "Cooked barbecued boar ribs (part-baked)",
+  "item-bbqmeat-ribs-cooked": "Cooked barbecued boar ribs",
+  "item-bbqmeat-ribs-cookedcharred": "Cooked barbecued boar ribs (charred)",
+
+  "game:recipeingredient-item-bbqmeat-ribs-*": "barbecued boar ribs",
+  "game:recipeingredient-item-bbqmeat-ribs-*-insturmentalcase": "barbecued boar ribs",
+  "recipeingredient-item-bbqmeat-ribs-*": "barbecued boar ribs",
+  "recipeingredient-item-bbqmeat-ribs-*-insturmentalcase": "barbecued boar ribs",
+  "game:meal-ingredient-stew-primary-bbqmeat-ribs-*": "barbecued boar ribs",
+  "game:meal-ingredient-stew-secondary-bbqmeat-ribs-*": "barbecued boar ribs",
+  "game:meal-ingredient-soup-primary-bbqmeat-ribs-*": "barbecued boar ribs",
+  "game:meal-ingredient-soup-secondary-bbqmeat-ribs-*": "barbecued boar ribs",
+
+  "itemdesc-bbqmeat-ribs-raw": "Boar ribs slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-bbqmeat-ribs-*": "Boar ribs slathered in tangy barbecue sauce, now a delicious meal!",
+
+  "item-bbqmeat-cockatricetail-raw": "Raw barbecued cockatrice tail",
+  "item-bbqmeat-cockatricetail-cookedpartbaked": "Cooked barbecued cockatrice tail (part-baked)",
+  "item-bbqmeat-cockatricetail-cooked": "Cooked barbecued cockatrice tail",
+  "item-bbqmeat-cockatricetail-cookedcharred": "Cooked barbecued cockatrice tail (charred)",
+
+  "game:recipeingredient-item-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
+  "game:recipeingredient-item-bbqmeat-cockatricetail-*-insturmentalcase": "barbecued cockatrice tail",
+  "recipeingredient-item-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
+  "recipeingredient-item-bbqmeat-cockatricetail-*-insturmentalcase": "barbecued cockatrice tail",
+  "game:meal-ingredient-stew-primary-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
+  "game:meal-ingredient-stew-secondary-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
+  "game:meal-ingredient-soup-primary-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
+  "game:meal-ingredient-soup-secondary-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
+
+  "itemdesc-bbqmeat-cockatricetail-raw": "Cockatrice tail slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-bbqmeat-cockatricetail-*": "Cockatrice tail slathered in tangy barbecue sauce, now a delicious meal!",
+
+  "item-coloneltsomeat-bisonleg-raw": "Raw Colonel Tso's bison leg",
+  "item-coloneltsomeat-bisonleg-cookedpartbaked": "Cooked Colonel Tso's bison leg (part-baked)",
+  "item-coloneltsomeat-bisonleg-cooked": "Cooked Colonel Tso's bison leg",
+  "item-coloneltsomeat-bisonleg-cookedcharred": "Cooked Colonel Tso's bison leg (charred)",
+
+  "game:recipeingredient-item-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
+  "game:recipeingredient-item-coloneltsomeat-bisonleg-*-insturmentalcase": "Colonel Tso's bison leg",
+  "recipeingredient-item-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
+  "recipeingredient-item-coloneltsomeat-bisonleg-*-insturmentalcase": "Colonel Tso's bison leg",
+  "game:meal-ingredient-stew-primary-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
+  "game:meal-ingredient-stew-secondary-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
+  "game:meal-ingredient-soup-primary-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
+  "game:meal-ingredient-soup-secondary-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
+
+  "itemdesc-coloneltsomeat-bisonleg-raw": "Bison leg slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-coloneltsomeat-bisonleg-*": "Bison leg slathered in Colonel Tso's sauce, now a delicious meal!",
+
+  "item-coloneltsomeat-ribs-raw": "Raw Colonel Tso's boar ribs",
+  "item-coloneltsomeat-ribs-cookedpartbaked": "Cooked Colonel Tso's boar ribs (part-baked)",
+  "item-coloneltsomeat-ribs-cooked": "Cooked Colonel Tso's boar ribs",
+  "item-coloneltsomeat-ribs-cookedcharred": "Cooked Colonel Tso's boar ribs (charred)",
+
+  "game:recipeingredient-item-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
+  "game:recipeingredient-item-coloneltsomeat-ribs-*-insturmentalcase": "Colonel Tso's boar ribs",
+  "recipeingredient-item-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
+  "recipeingredient-item-coloneltsomeat-ribs-*-insturmentalcase": "Colonel Tso's boar ribs",
+  "game:meal-ingredient-stew-primary-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
+  "game:meal-ingredient-stew-secondary-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
+  "game:meal-ingredient-soup-primary-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
+  "game:meal-ingredient-soup-secondary-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
+
+  "itemdesc-coloneltsomeat-ribs-raw": "Boar ribs slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-coloneltsomeat-ribs-*": "Boar ribs slathered in Colonel Tso's sauce, now a delicious meal!",
+
+  "item-coloneltsomeat-cockatricetail-raw": "Raw Colonel Tso's cockatrice tail",
+  "item-coloneltsomeat-cockatricetail-cookedpartbaked": "Cooked Colonel Tso's cockatrice tail (part-baked)",
+  "item-coloneltsomeat-cockatricetail-cooked": "Cooked Colonel Tso's cockatrice tail",
+  "item-coloneltsomeat-cockatricetail-cookedcharred": "Cooked Colonel Tso's cockatrice tail (charred)",
+
+  "game:recipeingredient-item-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
+  "game:recipeingredient-item-coloneltsomeat-cockatricetail-*-insturmentalcase": "Colonel Tso's cockatrice tail",
+  "recipeingredient-item-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
+  "recipeingredient-item-coloneltsomeat-cockatricetail-*-insturmentalcase": "Colonel Tso's cockatrice tail",
+  "game:meal-ingredient-stew-primary-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
+  "game:meal-ingredient-stew-secondary-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
+  "game:meal-ingredient-soup-primary-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
+  "game:meal-ingredient-soup-secondary-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
+
+  "itemdesc-coloneltsomeat-cockatricetail-raw": "Cockatrice tail slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-coloneltsomeat-cockatricetail-*": "Cockatrice tail slathered in Colonel Tso's sauce, now a delicious meal!",
+
+  "item-winereductionmeat-bisonleg-raw": "Raw wine-glazed bison leg",
+  "item-winereductionmeat-bisonleg-cookedpartbaked": "Cooked wine-glazed bison leg (part-baked)",
+  "item-winereductionmeat-bisonleg-cooked": "Cooked wine-glazed bison leg",
+  "item-winereductionmeat-bisonleg-cookedcharred": "Cooked wine-glazed bison leg (charred)",
+
+  "game:recipeingredient-item-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
+  "game:recipeingredient-item-winereductionmeat-bisonleg-*-insturmentalcase": "wine-glazed bison leg",
+  "recipeingredient-item-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
+  "recipeingredient-item-winereductionmeat-bisonleg-*-insturmentalcase": "wine-glazed bison leg",
+  "game:meal-ingredient-stew-primary-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
+  "game:meal-ingredient-stew-secondary-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
+  "game:meal-ingredient-soup-primary-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
+  "game:meal-ingredient-soup-secondary-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
+
+  "itemdesc-winereductionmeat-bisonleg-raw": "Bison leg glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-winereductionmeat-bisonleg-*": "Bison leg glazed in wine reduction sauce, now a delicious meal!",
+
+  "item-winereductionmeat-ribs-raw": "Raw wine-glazed boar ribs",
+  "item-winereductionmeat-ribs-cookedpartbaked": "Cooked wine-glazed boar ribs (part-baked)",
+  "item-winereductionmeat-ribs-cooked": "Cooked wine-glazed boar ribs",
+  "item-winereductionmeat-ribs-cookedcharred": "Cooked wine-glazed boar ribs (charred)",
+
+  "game:recipeingredient-item-winereductionmeat-ribs-*": "wine-glazed boar ribs",
+  "game:recipeingredient-item-winereductionmeat-ribs-*-insturmentalcase": "wine-glazed boar ribs",
+  "recipeingredient-item-winereductionmeat-ribs-*": "wine-glazed boar ribs",
+  "recipeingredient-item-winereductionmeat-ribs-*-insturmentalcase": "wine-glazed boar ribs",
+  "game:meal-ingredient-stew-primary-winereductionmeat-ribs-*": "wine-glazed boar ribs",
+  "game:meal-ingredient-stew-secondary-winereductionmeat-ribs-*": "wine-glazed boar ribs",
+  "game:meal-ingredient-soup-primary-winereductionmeat-ribs-*": "wine-glazed boar ribs",
+  "game:meal-ingredient-soup-secondary-winereductionmeat-ribs-*": "wine-glazed boar ribs",
+
+  "itemdesc-winereductionmeat-ribs-raw": "Boar ribs glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-winereductionmeat-ribs-*": "Boar ribs glazed in wine reduction sauce, now a delicious meal!",
+
+  "item-winereductionmeat-cockatricetail-raw": "Raw wine-glazed cockatrice tail",
+  "item-winereductionmeat-cockatricetail-cookedpartbaked": "Cooked wine-glazed cockatrice tail (part-baked)",
+  "item-winereductionmeat-cockatricetail-cooked": "Cooked wine-glazed cockatrice tail",
+  "item-winereductionmeat-cockatricetail-cookedcharred": "Cooked wine-glazed cockatrice tail (charred)",
+
+  "game:recipeingredient-item-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
+  "game:recipeingredient-item-winereductionmeat-cockatricetail-*-insturmentalcase": "wine-glazed cockatrice tail",
+  "recipeingredient-item-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
+  "recipeingredient-item-winereductionmeat-cockatricetail-*-insturmentalcase": "wine-glazed cockatrice tail",
+  "game:meal-ingredient-stew-primary-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
+  "game:meal-ingredient-stew-secondary-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
+  "game:meal-ingredient-soup-primary-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
+  "game:meal-ingredient-soup-secondary-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
+
+  "itemdesc-winereductionmeat-cockatricetail-raw": "Cockatrice tail glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-winereductionmeat-cockatricetail-*": "Cockatrice tail glazed in wine reduction sauce, now a delicious meal!"
 }

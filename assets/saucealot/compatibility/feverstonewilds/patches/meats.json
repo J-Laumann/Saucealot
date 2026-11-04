@@ -1,0 +1,3311 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "bisonleg",
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-bisonleg-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/bisonleg"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-raw",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cookedpartbaked",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cooked",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cookedcharred",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cookedpartbaked",
+    "value": {
+      "satiety": 220,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cooked",
+    "value": {
+      "satiety": 400,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cookedcharred",
+    "value": {
+      "satiety": 250,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-bisonleg-raw",
+    "value": {
+      "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/bbqmeat-bisonleg-raw",
+    "value": {
+      "satiety": 550,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/bbqmeat-bisonleg-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-redmeat"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-bisonleg-*",
+    "value": {
+      "transform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": 0,
+        "z": 0,
+        "x": -1
+      },
+      "rotation": {
+        "y": 57,
+        "z": 25,
+        "x": -54
+      },
+      "scale": 1.75,
+      "origin": {
+        "y": 0.2,
+        "z": 0.45,
+        "x": 0.5
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": -0.7,
+        "z": -0.7,
+        "x": -1.3
+      },
+      "rotation": {
+        "y": -180,
+        "z": 32,
+        "x": 180
+      },
+      "scale": 0.74
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": -0.15,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5,
+      "origin": {
+        "y": 0.5,
+        "z": 0.5299,
+        "x": 0.5
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ribs",
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-ribs-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/ribs"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-raw",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cookedpartbaked",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cooked",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cookedcharred",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cookedpartbaked",
+    "value": {
+      "satiety": 200,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cooked",
+    "value": {
+      "satiety": 350,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cookedcharred",
+    "value": {
+      "satiety": 225,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-ribs-raw",
+    "value": {
+      "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.8,
+        "rotation": {
+          "y": 40,
+          "z": 10,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.2725,
+          "z": 0.05,
+          "x": 0.03125
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/bbqmeat-ribs-raw",
+    "value": {
+      "satiety": 500,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/bbqmeat-ribs-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-redmeat"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-ribs-*",
+    "value": {
+      "transform": {
+        "scale": 0.8,
+        "rotation": {
+          "y": 40,
+          "z": 10,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.2725,
+          "z": 0.05,
+          "x": 0.03125
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": 0,
+        "z": 0,
+        "x": 4
+      },
+      "rotation": {
+        "y": 47,
+        "z": 31,
+        "x": -54
+      },
+      "scale": 1.8,
+      "origin": {
+        "y": 0.15,
+        "z": 0.4,
+        "x": 0.5
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": -0.82,
+        "z": -1.1,
+        "x": -0.72
+      },
+      "rotation": {
+        "y": -15,
+        "z": -180,
+        "x": 104
+      },
+      "scale": 0.75
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": -0.25,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "cockatricetail",
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-cockatricetail-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/cockatricetail"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-raw",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cookedpartbaked",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cooked",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cookedcharred",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cookedpartbaked",
+    "value": {
+      "satiety": 150,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cooked",
+    "value": {
+      "satiety": 350,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cookedcharred",
+    "value": {
+      "satiety": 215,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-cockatricetail-raw",
+    "value": {
+      "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/bbqmeat-cockatricetail-raw",
+    "value": {
+      "satiety": 450,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/bbqmeat-cockatricetail-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-poultry"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-cockatricetail-*",
+    "value": {
+      "transform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": 2,
+        "z": 10,
+        "x": 4
+      },
+      "rotation": {
+        "y": 60,
+        "z": 23,
+        "x": -54
+      },
+      "scale": 1.5,
+      "origin": {
+        "y": 0,
+        "z": 0.55,
+        "x": 0.7
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": -0.4,
+        "z": -0.6,
+        "x": -1.1
+      },
+      "rotation": {
+        "y": -180,
+        "z": 35,
+        "x": 0
+      },
+      "scale": 0.75
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": -0.15,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5,
+      "origin": {
+        "y": 0.5,
+        "z": 0.5299,
+        "x": 0.5
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "bisonleg",
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-bisonleg-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/bisonleg"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-raw",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cookedpartbaked",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cooked",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cookedcharred",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cookedpartbaked",
+    "value": {
+      "satiety": 220,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cooked",
+    "value": {
+      "satiety": 400,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cookedcharred",
+    "value": {
+      "satiety": 250,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-bisonleg-raw",
+    "value": {
+      "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/coloneltsomeat-bisonleg-raw",
+    "value": {
+      "satiety": 550,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/coloneltsomeat-bisonleg-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-redmeat"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-bisonleg-*",
+    "value": {
+      "transform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": 0,
+        "z": 0,
+        "x": -1
+      },
+      "rotation": {
+        "y": 57,
+        "z": 25,
+        "x": -54
+      },
+      "scale": 1.75,
+      "origin": {
+        "y": 0.2,
+        "z": 0.45,
+        "x": 0.5
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": -0.7,
+        "z": -0.7,
+        "x": -1.3
+      },
+      "rotation": {
+        "y": -180,
+        "z": 32,
+        "x": 180
+      },
+      "scale": 0.74
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": -0.15,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5,
+      "origin": {
+        "y": 0.5,
+        "z": 0.5299,
+        "x": 0.5
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ribs",
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-ribs-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/ribs"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-raw",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cookedpartbaked",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cooked",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cookedcharred",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cookedpartbaked",
+    "value": {
+      "satiety": 200,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cooked",
+    "value": {
+      "satiety": 350,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cookedcharred",
+    "value": {
+      "satiety": 225,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-ribs-raw",
+    "value": {
+      "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.8,
+        "rotation": {
+          "y": 40,
+          "z": 10,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.2725,
+          "z": 0.05,
+          "x": 0.03125
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/coloneltsomeat-ribs-raw",
+    "value": {
+      "satiety": 500,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/coloneltsomeat-ribs-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-redmeat"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-ribs-*",
+    "value": {
+      "transform": {
+        "scale": 0.8,
+        "rotation": {
+          "y": 40,
+          "z": 10,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.2725,
+          "z": 0.05,
+          "x": 0.03125
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": 0,
+        "z": 0,
+        "x": 4
+      },
+      "rotation": {
+        "y": 47,
+        "z": 31,
+        "x": -54
+      },
+      "scale": 1.8,
+      "origin": {
+        "y": 0.15,
+        "z": 0.4,
+        "x": 0.5
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": -0.82,
+        "z": -1.1,
+        "x": -0.72
+      },
+      "rotation": {
+        "y": -15,
+        "z": -180,
+        "x": 104
+      },
+      "scale": 0.75
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": -0.25,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "cockatricetail",
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-cockatricetail-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/cockatricetail"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-raw",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cookedpartbaked",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cooked",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cookedcharred",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cookedpartbaked",
+    "value": {
+      "satiety": 150,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cooked",
+    "value": {
+      "satiety": 350,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cookedcharred",
+    "value": {
+      "satiety": 215,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-cockatricetail-raw",
+    "value": {
+      "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/coloneltsomeat-cockatricetail-raw",
+    "value": {
+      "satiety": 450,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/coloneltsomeat-cockatricetail-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-poultry"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-cockatricetail-*",
+    "value": {
+      "transform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": 2,
+        "z": 10,
+        "x": 4
+      },
+      "rotation": {
+        "y": 60,
+        "z": 23,
+        "x": -54
+      },
+      "scale": 1.5,
+      "origin": {
+        "y": 0,
+        "z": 0.55,
+        "x": 0.7
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": -0.4,
+        "z": -0.6,
+        "x": -1.1
+      },
+      "rotation": {
+        "y": -180,
+        "z": 35,
+        "x": 0
+      },
+      "scale": 0.75
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": -0.15,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5,
+      "origin": {
+        "y": 0.5,
+        "z": 0.5299,
+        "x": 0.5
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "bisonleg",
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-bisonleg-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/bisonleg"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-raw",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cookedpartbaked",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cooked",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bisonleg-cookedcharred",
+    "value": {
+      "bisonleg": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cookedpartbaked",
+    "value": {
+      "satiety": 220,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cooked",
+    "value": {
+      "satiety": 400,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bisonleg-cookedcharred",
+    "value": {
+      "satiety": 250,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-bisonleg-raw",
+    "value": {
+      "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/winereductionmeat-bisonleg-raw",
+    "value": {
+      "satiety": 550,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/winereductionmeat-bisonleg-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-redmeat"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-bisonleg-*",
+    "value": {
+      "transform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": 0,
+        "z": 0,
+        "x": -1
+      },
+      "rotation": {
+        "y": 57,
+        "z": 25,
+        "x": -54
+      },
+      "scale": 1.75,
+      "origin": {
+        "y": 0.2,
+        "z": 0.45,
+        "x": 0.5
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": -0.7,
+        "z": -0.7,
+        "x": -1.3
+      },
+      "rotation": {
+        "y": -180,
+        "z": 32,
+        "x": 180
+      },
+      "scale": 0.74
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-bisonleg-*",
+    "value": {
+      "translation": {
+        "y": -0.15,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5,
+      "origin": {
+        "y": 0.5,
+        "z": 0.5299,
+        "x": 0.5
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ribs",
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-ribs-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/ribs"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-raw",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cookedpartbaked",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cooked",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-ribs-cookedcharred",
+    "value": {
+      "ribmeat": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cookedpartbaked",
+    "value": {
+      "satiety": 200,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cooked",
+    "value": {
+      "satiety": 350,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ribs-cookedcharred",
+    "value": {
+      "satiety": 225,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-ribs-raw",
+    "value": {
+      "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.8,
+        "rotation": {
+          "y": 40,
+          "z": 10,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.2725,
+          "z": 0.05,
+          "x": 0.03125
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/winereductionmeat-ribs-raw",
+    "value": {
+      "satiety": 500,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/winereductionmeat-ribs-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-redmeat"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-ribs-*",
+    "value": {
+      "transform": {
+        "scale": 0.8,
+        "rotation": {
+          "y": 40,
+          "z": 10,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.2725,
+          "z": 0.05,
+          "x": 0.03125
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": 0,
+        "z": 0,
+        "x": 4
+      },
+      "rotation": {
+        "y": 47,
+        "z": 31,
+        "x": -54
+      },
+      "scale": 1.8,
+      "origin": {
+        "y": 0.15,
+        "z": 0.4,
+        "x": 0.5
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": -0.82,
+        "z": -1.1,
+        "x": -0.72
+      },
+      "rotation": {
+        "y": -15,
+        "z": -180,
+        "x": 104
+      },
+      "scale": 0.75
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-ribs-*",
+    "value": {
+      "translation": {
+        "y": -0.25,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "cockatricetail",
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/@*-cockatricetail-(cookedpartbaked|cooked|cookedcharred|raw)",
+    "value": {
+      "base": "feverstonewilds:item/drops/cockatricetail"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-raw",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/rawmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cookedpartbaked",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/precookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cooked",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/cookedmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cockatricetail-cookedcharred",
+    "value": {
+      "cockatricemeat": {
+        "base": "feverstonewilds:items/food/charredmeat"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cookedpartbaked",
+    "value": {
+      "satiety": 150,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cooked",
+    "value": {
+      "satiety": 350,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cockatricetail-cookedcharred",
+    "value": {
+      "satiety": 215,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType/*-cockatricetail-raw",
+    "value": {
+      "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+      "endScaleY": 1,
+      "levelFrom": 0,
+      "startScaleY": 1,
+      "temp": 150,
+      "onDisplayTransform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "levelTo": 0.25
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType/winereductionmeat-cockatricetail-raw",
+    "value": {
+      "satiety": 450,
+      "foodcategory": "Protein"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType/winereductionmeat-cockatricetail-raw",
+    "value": {
+      "partType": "Filling",
+      "texture": "game:block/food/pie/fill-poultry"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inFirePitPropsByType/*-cockatricetail-*",
+    "value": {
+      "transform": {
+        "scale": 0.75,
+        "rotation": {
+          "y": 53,
+          "z": 20,
+          "x": 0
+        },
+        "translation": {
+          "y": 0.25,
+          "z": -0.05,
+          "x": 0.1
+        },
+        "origin": {
+          "y": 0.0625,
+          "z": 0.5,
+          "x": 0.5
+        }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": 2,
+        "z": 10,
+        "x": 4
+      },
+      "rotation": {
+        "y": 60,
+        "z": 23,
+        "x": -54
+      },
+      "scale": 1.5,
+      "origin": {
+        "y": 0,
+        "z": 0.55,
+        "x": 0.7
+      },
+      "rotate": false
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": -0.4,
+        "z": -0.6,
+        "x": -1.1
+      },
+      "rotation": {
+        "y": -180,
+        "z": 35,
+        "x": 0
+      },
+      "scale": 0.75
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-cockatricetail-*",
+    "value": {
+      "translation": {
+        "y": -0.15,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "y": 0,
+        "z": 0,
+        "x": 180
+      },
+      "scale": 5,
+      "origin": {
+        "y": 0.5,
+        "z": 0.5299,
+        "x": 0.5
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:bbqmeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:coloneltsomeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:winereductionmeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:bbqmeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:coloneltsomeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:winereductionmeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:bbqmeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:coloneltsomeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:winereductionmeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      }
+    ],
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:bbqmeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:coloneltsomeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:winereductionmeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:bbqmeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:coloneltsomeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:winereductionmeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:bbqmeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:coloneltsomeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:winereductionmeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      }
+    ],
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:bbqmeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:coloneltsomeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:winereductionmeat-bisonleg-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:bbqmeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:coloneltsomeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group2"
+        ],
+        "code": "saucealot:winereductionmeat-ribs-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:bbqmeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:coloneltsomeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      },
+      {
+        "textureMapping": [
+          "meat",
+          "group3"
+        ],
+        "code": "saucealot:winereductionmeat-cockatricetail-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "type": "item"
+      }
+    ],
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:bbqmeat-bisonleg-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:bbq-*",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:bisonleg-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:coloneltsomeat-bisonleg-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:coloneltso",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:bisonleg-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:winereductionmeat-bisonleg-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:winereduction-*",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:bisonleg-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:bbqmeat-ribs-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:bbq-*",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:ribs-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:coloneltsomeat-ribs-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:coloneltso",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:ribs-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:winereductionmeat-ribs-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:winereduction-*",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:ribs-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:bbqmeat-cockatricetail-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:bbq-*",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:cockatrice-tail-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:coloneltsomeat-cockatricetail-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:coloneltso",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:cockatrice-tail-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "output": {
+        "code": "saucealot:winereductionmeat-cockatricetail-raw",
+        "stackSize": 1,
+        "type": "item"
+      },
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "quantity": 10,
+              "code": "saucealot:winereduction-*",
+              "type": "item"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "quantity": 1,
+              "code": "feverstonewilds:cockatrice-tail-raw",
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    "file": "saucealot:recipes/kneading/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  }
+]
