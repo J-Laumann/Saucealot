@@ -3,7 +3,18 @@
 	"class": "ItemLiquidPortion",
 	"matterState": "liquid",
 	"variantgroups": [
-		{ "code": "fruit", "states": ["blueberry","cranberry","redcurrant","whitecurrant","blackcurrant","saguaro","pineapple","redapple","yellowapple","pinkapple","cherry","peach","pear","orange","mango","lychee","pomegranate", "honey", "strawberry", "lingonberry", "blackberry", "breadfruit", "beautyberry", "cloudberry", "raspberry"] }
+		{
+			"code": "fruit",
+			"loadFromProperties": "block/fruit",
+			"states": ["honey"]
+		}
+	],
+	"skipVariants": [
+		"*-plumnatal",
+		"*-guava",
+		"*-gooseberry",
+		"*-kumquat",
+		"*-cactusfruit"
 	],
 	"attributes": {
 		"handbook": {

@@ -9,7 +9,17 @@
 			"states": ["apple"]
 		}
 	],
-	"skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
+	"skipVariants": [
+		"*-pinkapple",
+		"*-redapple",
+		"*-yellowapple",
+		"*-olive",
+		"*-plumnatal",
+		"*-guava",
+		"*-gooseberry",
+		"*-kumquat",
+		"*-cactusfruit"
+	],
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
