@@ -9,8 +9,10 @@
 			{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
 			{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
 			{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:spicyqueso", "shapeElement": "bowl/topping/*" },
 			{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
 			{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:tartar", "shapeElement": "bowl/topping/*" },
 			{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
 		],
 		"side": "server",
@@ -29,8 +31,10 @@
 				{ "type": "item", "code": "saucealot:whitegravy", "shapeElement": "bowl/topping/*" },
 				{ "type": "item", "code": "saucealot:browngravy", "shapeElement": "bowl/topping/*" },
 				{ "type": "item", "code": "saucealot:queso", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:spicyqueso", "shapeElement": "bowl/topping/*" },
 				{ "type": "item", "code": "saucealot:chilioil", "shapeElement": "bowl/topping/*" },
 				{ "type": "item", "code": "saucealot:mayo", "shapeElement": "bowl/topping/*" },
+				{ "type": "item", "code": "saucealot:tartar", "shapeElement": "bowl/topping/*" },
 				{ "type": "item", "code": "saucealot:mushroomketchup-*", "shapeElement": "bowl/topping/*" }
 			],
 			"minQuantity": 0,

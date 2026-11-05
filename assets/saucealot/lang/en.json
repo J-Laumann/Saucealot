@@ -688,14 +688,23 @@
   "recipeingredient-item-browngravy": "brown gravy",
   "recipeingredient-item-browngravy-insturmentalcase": "brown gravy",
 
-  "item-queso": "Queso",
-  "incontainer-item-queso": "Queso",
-  "game:incontainer-item-queso": "Queso",
-  "itemdesc-queso": "A rich, spicy cheese sauce simmered from milk, cheese, flour, and bell pepper.",
-  "game:recipeingredient-item-queso": "queso",
-  "game:recipeingredient-item-queso-insturmentalcase": "queso",
-  "recipeingredient-item-queso": "queso",
-  "recipeingredient-item-queso-insturmentalcase": "queso",
+  "item-queso": "Queso sauce",
+  "incontainer-item-queso": "Queso sauce",
+  "game:incontainer-item-queso": "Queso sauce",
+  "itemdesc-queso": "A rich cheese sauce simmered from milk, cheese, and flour.",
+  "game:recipeingredient-item-queso": "queso sauce",
+  "game:recipeingredient-item-queso-insturmentalcase": "queso sauce",
+  "recipeingredient-item-queso": "queso sauce",
+  "recipeingredient-item-queso-insturmentalcase": "queso sauce",
+
+  "item-spicyqueso": "Spicy queso sauce",
+  "incontainer-item-spicyqueso": "Spicy queso sauce",
+  "game:incontainer-item-spicyqueso": "Spicy queso sauce",
+  "itemdesc-spicyqueso": "A rich, spicy cheese sauce simmered from milk, cheese, flour, and bell pepper.",
+  "game:recipeingredient-item-spicyqueso": "spicy queso sauce",
+  "game:recipeingredient-item-spicyqueso-insturmentalcase": "spicy queso sauce",
+  "recipeingredient-item-spicyqueso": "spicy queso sauce",
+  "recipeingredient-item-spicyqueso-insturmentalcase": "spicy queso sauce",
 
   "item-chilioil": "Chili oil",
   "incontainer-item-chilioil": "Chili oil",
@@ -709,11 +718,20 @@
   "item-mayo": "Mayonnaise",
   "incontainer-item-mayo": "Mayonnaise",
   "game:incontainer-item-mayo": "Mayonnaise",
-  "itemdesc-mayo": "An emulsified sauce kneaded from whole egg, vinegar, food oil, and salt.",
+  "itemdesc-mayo": "An emulsified sauce kneaded from whole egg, food oil, and salt.",
   "game:recipeingredient-item-mayo": "mayonnaise",
   "game:recipeingredient-item-mayo-insturmentalcase": "mayonnaise",
   "recipeingredient-item-mayo": "mayonnaise",
   "recipeingredient-item-mayo-insturmentalcase": "mayonnaise",
+
+  "item-tartar": "Tartar sauce",
+  "incontainer-item-tartar": "Tartar sauce",
+  "game:incontainer-item-tartar": "Tartar sauce",
+  "itemdesc-tartar": "A tangy sauce kneaded from mayonnaise, chopped pickled onion, and vinegar. Excellent with fish.",
+  "game:recipeingredient-item-tartar": "tartar sauce",
+  "game:recipeingredient-item-tartar-insturmentalcase": "tartar sauce",
+  "recipeingredient-item-tartar": "tartar sauce",
+  "recipeingredient-item-tartar-insturmentalcase": "tartar sauce",
 
   "itemdesc-mushroomketchup-*": "A savory ketchup simmered from mushrooms, salt, vinegar, and onion.",
 
@@ -1093,7 +1111,7 @@
   "game:meal-ingredient-soup-primary-bbqmeat-bisonleg-*": "barbecued bison leg",
   "game:meal-ingredient-soup-secondary-bbqmeat-bisonleg-*": "barbecued bison leg",
 
-  "itemdesc-bbqmeat-bisonleg-raw": "Bison leg slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-bbqmeat-bisonleg-raw": "Bison leg slathered in tangy barbecue sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-bbqmeat-bisonleg-*": "Bison leg slathered in tangy barbecue sauce, now a delicious meal!",
 
   "item-bbqmeat-ribs-raw": "Raw barbecued boar ribs",
@@ -1110,7 +1128,7 @@
   "game:meal-ingredient-soup-primary-bbqmeat-ribs-*": "barbecued boar ribs",
   "game:meal-ingredient-soup-secondary-bbqmeat-ribs-*": "barbecued boar ribs",
 
-  "itemdesc-bbqmeat-ribs-raw": "Boar ribs slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-bbqmeat-ribs-raw": "Boar ribs slathered in tangy barbecue sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-bbqmeat-ribs-*": "Boar ribs slathered in tangy barbecue sauce, now a delicious meal!",
 
   "item-bbqmeat-cockatricetail-raw": "Raw barbecued cockatrice tail",
@@ -1127,7 +1145,7 @@
   "game:meal-ingredient-soup-primary-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
   "game:meal-ingredient-soup-secondary-bbqmeat-cockatricetail-*": "barbecued cockatrice tail",
 
-  "itemdesc-bbqmeat-cockatricetail-raw": "Cockatrice tail slathered in tangy barbecue sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-bbqmeat-cockatricetail-raw": "Cockatrice tail slathered in tangy barbecue sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-bbqmeat-cockatricetail-*": "Cockatrice tail slathered in tangy barbecue sauce, now a delicious meal!",
 
   "item-coloneltsomeat-bisonleg-raw": "Raw Colonel Tso's bison leg",
@@ -1144,7 +1162,7 @@
   "game:meal-ingredient-soup-primary-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
   "game:meal-ingredient-soup-secondary-coloneltsomeat-bisonleg-*": "Colonel Tso's bison leg",
 
-  "itemdesc-coloneltsomeat-bisonleg-raw": "Bison leg slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-coloneltsomeat-bisonleg-raw": "Bison leg slathered in Colonel Tso's sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-coloneltsomeat-bisonleg-*": "Bison leg slathered in Colonel Tso's sauce, now a delicious meal!",
 
   "item-coloneltsomeat-ribs-raw": "Raw Colonel Tso's boar ribs",
@@ -1161,7 +1179,7 @@
   "game:meal-ingredient-soup-primary-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
   "game:meal-ingredient-soup-secondary-coloneltsomeat-ribs-*": "Colonel Tso's boar ribs",
 
-  "itemdesc-coloneltsomeat-ribs-raw": "Boar ribs slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-coloneltsomeat-ribs-raw": "Boar ribs slathered in Colonel Tso's sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-coloneltsomeat-ribs-*": "Boar ribs slathered in Colonel Tso's sauce, now a delicious meal!",
 
   "item-coloneltsomeat-cockatricetail-raw": "Raw Colonel Tso's cockatrice tail",
@@ -1178,7 +1196,7 @@
   "game:meal-ingredient-soup-primary-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
   "game:meal-ingredient-soup-secondary-coloneltsomeat-cockatricetail-*": "Colonel Tso's cockatrice tail",
 
-  "itemdesc-coloneltsomeat-cockatricetail-raw": "Cockatrice tail slathered in Colonel Tso's sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-coloneltsomeat-cockatricetail-raw": "Cockatrice tail slathered in Colonel Tso's sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-coloneltsomeat-cockatricetail-*": "Cockatrice tail slathered in Colonel Tso's sauce, now a delicious meal!",
 
   "item-winereductionmeat-bisonleg-raw": "Raw wine-glazed bison leg",
@@ -1195,7 +1213,7 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
   "game:meal-ingredient-soup-secondary-winereductionmeat-bisonleg-*": "wine-glazed bison leg",
 
-  "itemdesc-winereductionmeat-bisonleg-raw": "Bison leg glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-winereductionmeat-bisonleg-raw": "Bison leg glazed in wine reduction sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-winereductionmeat-bisonleg-*": "Bison leg glazed in wine reduction sauce, now a delicious meal!",
 
   "item-winereductionmeat-ribs-raw": "Raw wine-glazed boar ribs",
@@ -1212,7 +1230,7 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-ribs-*": "wine-glazed boar ribs",
   "game:meal-ingredient-soup-secondary-winereductionmeat-ribs-*": "wine-glazed boar ribs",
 
-  "itemdesc-winereductionmeat-ribs-raw": "Boar ribs glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-winereductionmeat-ribs-raw": "Boar ribs glazed in wine reduction sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-winereductionmeat-ribs-*": "Boar ribs glazed in wine reduction sauce, now a delicious meal!",
 
   "item-winereductionmeat-cockatricetail-raw": "Raw wine-glazed cockatrice tail",
@@ -1229,6 +1247,6 @@
   "game:meal-ingredient-soup-primary-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
   "game:meal-ingredient-soup-secondary-winereductionmeat-cockatricetail-*": "wine-glazed cockatrice tail",
 
-  "itemdesc-winereductionmeat-cockatricetail-raw": "Cockatrice tail glazed in wine reduction sauce, bake for a delectable platter or use it in any meal.",
+  "itemdesc-winereductionmeat-cockatricetail-raw": "Cockatrice tail glazed in wine reduction sauce, cook it on a firepit or use it in any meal.",
   "itemdesc-winereductionmeat-cockatricetail-*": "Cockatrice tail glazed in wine reduction sauce, now a delicious meal!"
 }

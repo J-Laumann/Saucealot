@@ -1,0 +1,10 @@
+[
+	{
+		"ingredients": [
+			{ "inputs": [{ "type": "item", "code": "saucealot:mayo", "quantity": 30 }] },
+			{ "inputs": [{ "type": "item", "code": "expandedfoods:choppedvegetable-pickledonion", "quantity": 1 }] },
+			{ "inputs": [{ "type": "item", "code": "game:vinegarportion", "quantity": 10 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:tartar", "stackSize": 40 }
+	}
+]

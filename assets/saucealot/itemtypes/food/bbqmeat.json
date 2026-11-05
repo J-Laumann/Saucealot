@@ -44,7 +44,7 @@
 				"endScaleY": 1.0,
 				"resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked"
 			},
-			"*-cookedpartbaked": {
+			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cookedpartbaked": {
 				"temp": 150,
 				"levelFrom": 0.25,
 				"levelTo": 0.5,
@@ -53,7 +53,7 @@
 				"resultCode": "saucealot:bbqmeat-{meat}-cooked",
 				"initialCode": "saucealot:bbqmeat-{meat}-raw"
 			},
-			"*-cooked": {
+			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cooked": {
 				"temp": 150,
 				"levelFrom": 0.5,
 				"levelTo": 0.75,
@@ -62,7 +62,7 @@
 				"resultCode": "saucealot:bbqmeat-{meat}-cookedcharred",
 				"initialCode": "saucealot:bbqmeat-{meat}-cookedpartbaked"
 			},
-			"*-cookedcharred": {
+			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cookedcharred": {
 				"temp": 150,
 				"levelFrom": 0.75,
 				"levelTo": 1.0,
@@ -416,12 +416,36 @@
 		}
 	},
 	"combustiblePropsByType": {
-		"@*-(raw|cookedpartbaked|cooked)": {
+		"@*-(bushmeat|poultry|redmeat|fish|primemeat)-(raw|cookedpartbaked|cooked)": {
 			"meltingPoint": 150,
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "cook",
 			"smeltedStack": { "type": "item", "code": "saucealot:bbqmeat-{meat}-cookedcharred" },
+			"requiresContainer": false
+		},
+		"*-bisonleg-raw": {
+			"meltingPoint": 250,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:bbqmeat-bisonleg-cooked" },
+			"requiresContainer": false
+		},
+		"*-ribs-raw": {
+			"meltingPoint": 250,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:bbqmeat-ribs-cooked" },
+			"requiresContainer": false
+		},
+		"*-cockatricetail-raw": {
+			"meltingPoint": 250,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:bbqmeat-cockatricetail-cooked" },
 			"requiresContainer": false
 		}
 	}

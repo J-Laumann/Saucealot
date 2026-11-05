@@ -101,6 +101,24 @@
 		},
 		"side": "Server"
 	}
+	,
+	{
+		"op": "addmerge",
+		"file": "saucealot:itemtypes/liquid/spicyqueso.json",
+		"path": "/attributes/sandwich:whenOnSandwich",
+		"value": {
+			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
+			"textures": {
+				"all": { "base": "game:block/food/pie/fill-cheddar", "alpha": 200 }
+			},
+			"size": 0.01025,
+			"rotate": true,
+			"rotation": { "avg": 1, "var": 1.2 },
+			"copyLastRotation": true,
+			"litresPerLayer": 0.1
+		},
+		"side": "Server"
+	}
 
 	,{
 		"op": "addmerge",

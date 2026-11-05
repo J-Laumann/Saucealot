@@ -44,7 +44,7 @@
 				"endScaleY": 1.0,
 				"resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked"
 			},
-			"*-cookedpartbaked": {
+			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cookedpartbaked": {
 				"temp": 150,
 				"levelFrom": 0.25,
 				"levelTo": 0.5,
@@ -53,7 +53,7 @@
 				"resultCode": "saucealot:winereductionmeat-{meat}-cooked",
 				"initialCode": "saucealot:winereductionmeat-{meat}-raw"
 			},
-			"*-cooked": {
+			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cooked": {
 				"temp": 150,
 				"levelFrom": 0.5,
 				"levelTo": 0.75,
@@ -62,7 +62,7 @@
 				"resultCode": "saucealot:winereductionmeat-{meat}-cookedcharred",
 				"initialCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked"
 			},
-			"*-cookedcharred": {
+			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cookedcharred": {
 				"temp": 150,
 				"levelFrom": 0.75,
 				"levelTo": 1.0,
@@ -416,12 +416,36 @@
 		}
 	},
 	"combustiblePropsByType": {
-		"@*-(raw|cookedpartbaked|cooked)": {
+		"@*-(bushmeat|poultry|redmeat|fish|primemeat)-(raw|cookedpartbaked|cooked)": {
 			"meltingPoint": 150,
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "cook",
 			"smeltedStack": { "type": "item", "code": "saucealot:winereductionmeat-{meat}-cookedcharred" },
+			"requiresContainer": false
+		},
+		"*-bisonleg-raw": {
+			"meltingPoint": 250,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:winereductionmeat-bisonleg-cooked" },
+			"requiresContainer": false
+		},
+		"*-ribs-raw": {
+			"meltingPoint": 250,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:winereductionmeat-ribs-cooked" },
+			"requiresContainer": false
+		},
+		"*-cockatricetail-raw": {
+			"meltingPoint": 250,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:winereductionmeat-cockatricetail-cooked" },
 			"requiresContainer": false
 		}
 	}

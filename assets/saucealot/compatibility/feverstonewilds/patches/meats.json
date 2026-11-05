@@ -54,24 +54,6 @@
   },
   {
     "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-bisonleg-raw",
-    "value": {
-      "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
-    },
-    "file": "saucealot:itemtypes/food/bbqmeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
     "path": "/attributes/nutritionPropsWhenInMealByType/bbqmeat-bisonleg-raw",
     "value": {
       "satiety": 550,
@@ -143,24 +125,6 @@
     "value": {
       "satiety": 225,
       "foodcategory": "Protein"
-    },
-    "file": "saucealot:itemtypes/food/bbqmeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-ribs-raw",
-    "value": {
-      "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
     },
     "file": "saucealot:itemtypes/food/bbqmeat.json",
     "dependsOn": [
@@ -252,24 +216,6 @@
   },
   {
     "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-cockatricetail-raw",
-    "value": {
-      "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
-    },
-    "file": "saucealot:itemtypes/food/bbqmeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
     "path": "/attributes/nutritionPropsWhenInMealByType/bbqmeat-cockatricetail-raw",
     "value": {
       "satiety": 450,
@@ -341,24 +287,6 @@
     "value": {
       "satiety": 250,
       "foodcategory": "Protein"
-    },
-    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-bisonleg-raw",
-    "value": {
-      "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
     },
     "file": "saucealot:itemtypes/food/coloneltsomeat.json",
     "dependsOn": [
@@ -450,24 +378,6 @@
   },
   {
     "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-ribs-raw",
-    "value": {
-      "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
-    },
-    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
     "path": "/attributes/nutritionPropsWhenInMealByType/coloneltsomeat-ribs-raw",
     "value": {
       "satiety": 500,
@@ -539,24 +449,6 @@
     "value": {
       "satiety": 215,
       "foodcategory": "Protein"
-    },
-    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-cockatricetail-raw",
-    "value": {
-      "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
     },
     "file": "saucealot:itemtypes/food/coloneltsomeat.json",
     "dependsOn": [
@@ -648,24 +540,6 @@
   },
   {
     "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-bisonleg-raw",
-    "value": {
-      "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
-    },
-    "file": "saucealot:itemtypes/food/winereductionmeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
     "path": "/attributes/nutritionPropsWhenInMealByType/winereductionmeat-bisonleg-raw",
     "value": {
       "satiety": 550,
@@ -747,24 +621,6 @@
   },
   {
     "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-ribs-raw",
-    "value": {
-      "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
-    },
-    "file": "saucealot:itemtypes/food/winereductionmeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
     "path": "/attributes/nutritionPropsWhenInMealByType/winereductionmeat-ribs-raw",
     "value": {
       "satiety": 500,
@@ -836,24 +692,6 @@
     "value": {
       "satiety": 215,
       "foodcategory": "Protein"
-    },
-    "file": "saucealot:itemtypes/food/winereductionmeat.json",
-    "dependsOn": [
-      {
-        "modid": "feverstonewilds"
-      }
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/attributes/bakingPropertiesByType/*-cockatricetail-raw",
-    "value": {
-      "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
-      "endScaleY": 1,
-      "levelFrom": 0,
-      "startScaleY": 1,
-      "temp": 150,
-      "levelTo": 0.25
     },
     "file": "saucealot:itemtypes/food/winereductionmeat.json",
     "dependsOn": [
