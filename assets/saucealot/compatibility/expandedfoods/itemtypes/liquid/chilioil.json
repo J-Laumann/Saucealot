@@ -6,8 +6,9 @@
 		"handbook": {
 			"ignoreCreativeInvStacks": true
 		},
+		"hydration": 10,
 		"inBowlShape": { "base": "game:block/meal/liquid" },
-		"nutritionPropsWhenInMeal": { "satiety": 110, "foodcategory": "Protein" },
+		"nutritionPropsWhenInMeal": { "satiety": 50, "foodcategory": "Protein" },
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
@@ -17,7 +18,8 @@
 				"action": "DropContents",
 				"stack": { "type": "item", "code": "saucealot:chilioil" }
 			},
-			"nutritionPropsPerLitre": { "satiety": 110, "foodcategory": "Protein" }
+			"nutritionPropsPerLitre": { "satiety": 500, "foodcategory": "Protein" },
+			"nutritionPropsPerLitreWhenInMeal": { "satiety": 500, "foodcategory": "Protein" }
 		},
 		"sandwich:whenOnSandwich": {
 			"shape": { "base": "sandwich:item/sandwich_ingredients_vanilla/liquid" },
@@ -771,7 +773,7 @@
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 1.0
 	}],
-	"nutritionProps": { "satiety": 110, "foodcategory": "Protein" },
+	"nutritionProps": { "satiety": 5, "foodcategory": "Protein" },
 	"guiTransform": {
 		"rotation": { "x": 128, "y": 40, "z": 7 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },

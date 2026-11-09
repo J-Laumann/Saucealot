@@ -11,7 +11,7 @@
 			"meltingDuration": 100,
 			"smeltedRatio": 1,
 			"smeltingType": "bake",
-			"smeltedStack": { "type": "item", "code": "saucealot:bbq-{fruit}", "quantity": 20 },
+			"smeltedStack": { "type": "item", "code": "saucealot:bbq-{fruit}", "quantity": 40 },
 			"requiresContainer": false
 		}
 	},
@@ -26,7 +26,7 @@
 			"meltingDuration": 100,
 			"smeltedRatio": 1,
 			"smeltingType": "bake",
-			"smeltedStack": { "type": "item", "code": "saucealot:bbq-honey", "quantity": 20 },
+			"smeltedStack": { "type": "item", "code": "saucealot:bbq-honey", "quantity": 30 },
 			"requiresContainer": false
 		}
 	}

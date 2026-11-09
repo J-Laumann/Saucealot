@@ -11,7 +11,7 @@
       "meltingDuration": 100,
       "smeltedRatio": 1,
       "smeltingType": "bake",
-      "smeltedStack": { "type": "item", "code": "saucealot:coloneltso", "quantity": 20 },
+      "smeltedStack": { "type": "item", "code": "saucealot:coloneltso", "quantity": 40 },
       "requiresContainer": false
     }
   }

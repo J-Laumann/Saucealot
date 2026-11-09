@@ -6,8 +6,9 @@
 		"handbook": {
 			"ignoreCreativeInvStacks": true
 		},
+		"hydration": 70,
 		"inBowlShape": { "base": "game:block/meal/liquid" },
-		"nutritionPropsWhenInMeal": { "satiety": 200, "foodcategory": "Dairy" },
+		"nutritionPropsWhenInMeal": { "satiety": 90, "foodcategory": "Dairy" },
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
@@ -17,7 +18,8 @@
 				"action": "DropContents",
 				"stack": { "type": "item", "code": "saucealot:queso" }
 			},
-			"nutritionPropsPerLitre": { "satiety": 200, "foodcategory": "Dairy" }
+			"nutritionPropsPerLitre": { "satiety": 900, "foodcategory": "Dairy" },
+			"nutritionPropsPerLitreWhenInMeal": { "satiety": 900, "foodcategory": "Dairy" }
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
@@ -34,7 +36,7 @@
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 1.0
 	}],
-	"nutritionProps": { "satiety": 200, "foodcategory": "Dairy" },
+	"nutritionProps": { "satiety": 9, "foodcategory": "Dairy" },
 	"guiTransform": {
 		"rotation": { "x": 128, "y": 40, "z": 7 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },

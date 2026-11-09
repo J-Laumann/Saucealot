@@ -1,0 +1,74 @@
+[
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucedmeat-bushmeat-raw", "stackSize": 1 }
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "game:poultry-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucedmeat-poultry-raw", "stackSize": 1 }
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "game:redmeat-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucedmeat-redmeat-raw", "stackSize": 1 }
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "game:fish-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucedmeat-fish-raw", "stackSize": 1 }
+	}
+]

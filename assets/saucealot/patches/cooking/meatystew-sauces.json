@@ -3,18 +3,10 @@
 		"op": "addeach",
 		"path": "/ingredients/0/validStacks/-",
 		"value": [
-			{ "type": "item", "code": "saucealot:bbqmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] }
+			{ "type": "item", "code": "saucealot:saucedmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] }
 		],
 		"side": "server",
 		"file": "game:recipes/cooking/meatystew.json"
@@ -23,18 +15,10 @@
 		"op": "addeach",
 		"path": "/ingredients/3/validStacks/-",
 		"value": [
-			{ "type": "item", "code": "saucealot:bbqmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] }
+			{ "type": "item", "code": "saucealot:saucedmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] }
 		],
 		"side": "server",
 		"file": "game:recipes/cooking/meatystew.json"
@@ -43,18 +27,10 @@
 		"op": "addeach",
 		"path": "/ingredients/4/validStacks/-",
 		"value": [
-			{ "type": "item", "code": "saucealot:bbqmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:bbqmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:coloneltsomeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
-			{ "type": "item", "code": "saucealot:winereductionmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] }
+			{ "type": "item", "code": "saucealot:saucedmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group2"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group3"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group7"] },
+			{ "type": "item", "code": "saucealot:saucedmeat-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": ["meat", "group1"] }
 		],
 		"side": "server",
 		"file": "game:recipes/cooking/meatystew.json"

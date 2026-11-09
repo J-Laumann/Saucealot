@@ -1,0 +1,56 @@
+[
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "feverstonewilds:bisonleg-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucedmeat-bisonleg-raw", "stackSize": 1 }
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "feverstonewilds:ribs-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucedmeat-ribs-raw", "stackSize": 1 }
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "feverstonewilds:cockatrice-tail-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucedmeat-cockatricetail-raw", "stackSize": 1 }
+	}
+]

@@ -1,0 +1,114 @@
+[
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/3/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat-feverstone.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "feverstonewilds" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat-feverstone.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "feverstonewilds" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat-feverstone.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "feverstonewilds" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/0/inputs/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+		],
+		"file": "saucealot:recipes/kneading/saucedmeat-primemeat.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "butchering" }]
+	}
+]

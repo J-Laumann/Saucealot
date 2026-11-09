@@ -25,8 +25,9 @@
 			"ignoreCreativeInvStacks": true,
 			"groupBy": ["winereduction-*"]
 		},
+		"hydration": 70,
 		"inBowlShape": { "base": "game:block/meal/liquid" },
-		"nutritionPropsWhenInMeal": { "satiety": 120, "health": 2, "foodcategory": "Fruit" },
+		"nutritionPropsWhenInMeal": { "satiety": 70, "health": 1, "foodcategory": "Fruit" },
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
@@ -39,7 +40,8 @@
 				"action": "DropContents",
 				"stack": { "type": "item", "code": "saucealot:winereduction-{fruit}" }
 			},
-			"nutritionPropsPerLitre": { "satiety": 150, "health": 2, "foodcategory": "Fruit" }
+			"nutritionPropsPerLitre": { "satiety": 700, "health": 10, "foodcategory": "Fruit" },
+			"nutritionPropsPerLitreWhenInMeal": { "satiety": 700, "health": 10, "foodcategory": "Fruit" }
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
@@ -59,7 +61,7 @@
 			"transitionRatio": 1.0
 		}]
 	},
-	"nutritionProps": { "saturation": 150, "health": 2, "foodcategory": "Fruit" },
+	"nutritionProps": { "satiety": 7, "health": 0.1, "foodcategory": "Fruit" },
 	"guiTransform": {
 		"rotation": { "x": 128, "y": 40, "z": 7 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },

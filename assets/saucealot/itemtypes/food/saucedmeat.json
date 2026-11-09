@@ -1,16 +1,54 @@
 {
-	"code": "coloneltsomeat",
+	"code": "saucedmeat",
+	"class": "ExpandedFood",
 	"maxstacksize": 64,
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "coloneltsomeat-*" ] },
+		"handbook": { "groupBy": [ "saucedmeat-*" ] },
+		"expandedNutritionProps": {
+			"game:bushmeat-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"game:poultry-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"game:redmeat-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"game:fish-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"feverstonewilds:bisonleg-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"feverstonewilds:ribs-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"feverstonewilds:cockatrice-tail-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"butchering:primemeat-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"saucealot:coloneltso": { "satiety": 6, "health": 0.05, "foodcategory": "Protein" },
+			"saucealot:whitegravy": { "satiety": 7, "health": 0.05, "foodcategory": "Dairy" },
+			"saucealot:browngravy": { "satiety": 7, "health": 0.05, "foodcategory": "Protein" },
+			"saucealot:queso": { "satiety": 9, "foodcategory": "Dairy" },
+			"saucealot:spicyqueso": { "satiety": 10, "foodcategory": "Dairy" },
+			"saucealot:chilioil": { "satiety": 5, "foodcategory": "Protein" },
+			"saucealot:mayo": { "satiety": 7, "health": 0.025, "foodcategory": "Protein" },
+			"saucealot:tartar": { "satiety": 8, "health": 0.025, "foodcategory": "Protein" },
+			"expandedfoods:soysauce": { "satiety": 6.4, "health": 0.1, "foodcategory": "Protein" },
+			"expandedfoods:fishsauce": { "satiety": 5, "foodcategory": "Protein" },
+			"saucealot:bbq-*": { "satiety": 5, "health": 0.05, "foodcategory": "Fruit" },
+			"saucealot:winereduction-*": { "satiety": 7, "health": 0.1, "foodcategory": "Fruit" },
+			"saucealot:mushroomketchup-flyagaric": { "satiety": 6, "health": -0.65, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-earthball": { "satiety": 6, "health": -0.8, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-deathcap": { "satiety": 6, "health": -5, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-elfinsaddle": { "satiety": 6, "health": -0.7, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-jackolantern": { "satiety": 6, "health": -0.6, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-devilbolete": { "satiety": 6, "health": -1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-bitterbolete": { "satiety": 6, "health": -0.1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-devilstooth": { "satiety": 6, "health": -0.2, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-golddropmilkcap": { "satiety": 6, "health": -0.25, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-laughingjim": { "satiety": 6, "health": -1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-foolsconecap": { "satiety": 6, "health": -2, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-sickener": { "satiety": 6, "health": -0.7, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-funeralbell": { "satiety": 6, "health": -4, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-pinkbonnet": { "satiety": 6, "health": -1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-*": { "satiety": 6, "foodcategory": "Vegetable" }
+		},
+
 		"nutritionPropsWhenInMealByType": {
-			"coloneltsomeat-bushmeat-raw": {"satiety": 200, "foodcategory": "Protein"},
-			"coloneltsomeat-redmeat-raw": {"satiety": 480, "foodcategory": "Protein"},
-			"coloneltsomeat-poultry-raw": {"satiety": 340, "foodcategory": "Protein"},
-			"coloneltsomeat-fish-raw": {"satiety": 200, "foodcategory": "Protein"},
-			"coloneltsomeat-primemeat-raw": {"satiety": 600, "foodcategory": "Protein"}
+			"saucedmeat-bushmeat-raw": {"satiety": 200, "foodcategory": "Protein"},
+			"saucedmeat-redmeat-raw": {"satiety": 480, "foodcategory": "Protein"},
+			"saucedmeat-poultry-raw": {"satiety": 340, "foodcategory": "Protein"},
+			"saucedmeat-fish-raw": {"satiety": 200, "foodcategory": "Protein"}
 		},
 		"bakingPropertiesByType": {
 			"*-bushmeat-raw": {
@@ -19,7 +57,7 @@
 				"levelTo": 0.25,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
-				"resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked"
+				"resultCode": "saucealot:saucedmeat-{meat}-cookedpartbaked"
 			},
 			"*-poultry-raw": {
 				"temp": 150,
@@ -27,7 +65,7 @@
 				"levelTo": 0.25,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
-				"resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked"
+				"resultCode": "saucealot:saucedmeat-{meat}-cookedpartbaked"
 			},
 			"*-redmeat-raw": {
 				"temp": 150,
@@ -35,15 +73,7 @@
 				"levelTo": 0.25,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
-				"resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked"
-			},
-			"*-primemeat-raw": {
-				"temp": 150,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked"
+				"resultCode": "saucealot:saucedmeat-{meat}-cookedpartbaked"
 			},
 			"*-fish-raw": {
 				"temp": 150,
@@ -51,7 +81,7 @@
 				"levelTo": 0.25,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
-				"resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked"
+				"resultCode": "saucealot:saucedmeat-{meat}-cookedpartbaked"
 			},
 			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cookedpartbaked": {
 				"temp": 150,
@@ -59,8 +89,8 @@
 				"levelTo": 0.5,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
-				"resultCode": "saucealot:coloneltsomeat-{meat}-cooked",
-				"initialCode": "saucealot:coloneltsomeat-{meat}-raw"
+				"resultCode": "saucealot:saucedmeat-{meat}-cooked",
+				"initialCode": "saucealot:saucedmeat-{meat}-raw"
 			},
 			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cooked": {
 				"temp": 150,
@@ -68,8 +98,8 @@
 				"levelTo": 0.75,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
-				"resultCode": "saucealot:coloneltsomeat-{meat}-cookedcharred",
-				"initialCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked"
+				"resultCode": "saucealot:saucedmeat-{meat}-cookedcharred",
+				"initialCode": "saucealot:saucedmeat-{meat}-cookedpartbaked"
 			},
 			"@*-(bushmeat|poultry|redmeat|fish|primemeat)-cookedcharred": {
 				"temp": 150,
@@ -77,7 +107,7 @@
 				"levelTo": 1.0,
 				"startScaleY": 1.0,
 				"endScaleY": 0.9,
-				"initialCode": "saucealot:coloneltsomeat-{meat}-cooked"
+				"initialCode": "saucealot:saucedmeat-{meat}-cooked"
 			}
 		},
 		"onDisplayTransformByType": {
@@ -116,11 +146,10 @@
 			}
 		},
     	"inPiePropertiesByType": {
-      		"*-redmeat-raw": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
-      		"*-primemeat-raw": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
-      		"*-bushmeat-raw": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling" },
-      		"*-poultry-raw": { "texture": "game:block/food/pie/fill-poultry", "partType": "Filling" },
-      		"*-fish-raw": { "texture": "game:block/food/pie/fill-fish", "partType": "Filling" }
+      		"saucedmeat-redmeat-raw": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
+      		"saucedmeat-bushmeat-raw": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling" },
+      		"saucedmeat-poultry-raw": { "texture": "game:block/food/pie/fill-poultry", "partType": "Filling" },
+      		"saucedmeat-fish-raw": { "texture": "game:block/food/pie/fill-fish", "partType": "Filling" }
     	},
 		"inFirePitPropsByType": {
 			"*-bushmeat-*": {
@@ -142,15 +171,6 @@
 				"useFirepitModel": "Spit"
 			},
 			"*-redmeat-*": {
-				"transform": {
-					"scale": 0.9,
-					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
-					"translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
-					"rotation": { "x": 0, "y": 53, "z": 90 }
-				},
-				"useFirepitModel": "Spit"
-			},
-			"*-primemeat-*": {
 				"transform": {
 					"scale": 0.9,
 					"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
@@ -440,7 +460,7 @@
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "cook",
-			"smeltedStack": { "type": "item", "code": "saucealot:coloneltsomeat-{meat}-cookedcharred" },
+			"smeltedStack": { "type": "item", "code": "saucealot:saucedmeat-{meat}-cookedcharred" },
 			"requiresContainer": false
 		},
 		"*-bisonleg-raw": {
@@ -448,7 +468,7 @@
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "cook",
-			"smeltedStack": { "type": "item", "code": "saucealot:coloneltsomeat-bisonleg-cooked" },
+			"smeltedStack": { "type": "item", "code": "saucealot:saucedmeat-bisonleg-cooked" },
 			"requiresContainer": false
 		},
 		"*-ribs-raw": {
@@ -456,7 +476,7 @@
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "cook",
-			"smeltedStack": { "type": "item", "code": "saucealot:coloneltsomeat-ribs-cooked" },
+			"smeltedStack": { "type": "item", "code": "saucealot:saucedmeat-ribs-cooked" },
 			"requiresContainer": false
 		},
 		"*-cockatricetail-raw": {
@@ -464,7 +484,7 @@
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "cook",
-			"smeltedStack": { "type": "item", "code": "saucealot:coloneltsomeat-cockatricetail-cooked" },
+			"smeltedStack": { "type": "item", "code": "saucealot:saucedmeat-cockatricetail-cooked" },
 			"requiresContainer": false
 		}
 	}

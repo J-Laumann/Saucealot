@@ -6,8 +6,9 @@
 		"handbook": {
 			"ignoreCreativeInvStacks": true
 		},
+		"hydration": 20,
 		"inBowlShape": { "base": "game:block/meal/liquid" },
-		"nutritionPropsWhenInMeal": { "satiety": 100, "health": 1, "foodcategory": "Protein" },
+		"nutritionPropsWhenInMeal": { "satiety": 60, "health": 0.5, "foodcategory": "Protein" },
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
@@ -17,7 +18,8 @@
 				"action": "DropContents",
 				"stack": { "type": "item", "code": "saucealot:coloneltso" } 
 			},
-			"nutritionPropsPerLitre": { "saturation": 150, "health": 1, "foodcategory": "Protein" }
+			"nutritionPropsPerLitre": { "satiety": 600, "health": 5, "foodcategory": "Protein" },
+			"nutritionPropsPerLitreWhenInMeal": { "satiety": 600, "health": 5, "foodcategory": "Protein" }
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
@@ -36,6 +38,7 @@
 			"transitionRatio": 1.0
 		}]
 	},
+	"nutritionProps": { "satiety": 6, "health": 0.05, "foodcategory": "Protein" },
 	"guiTransform": {
 		"rotation": { "x": 128, "y": 40, "z": 7 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
