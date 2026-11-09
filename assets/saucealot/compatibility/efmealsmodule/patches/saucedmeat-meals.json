@@ -1,0 +1,1138 @@
+[
+	{
+		"op": "addeach",
+		"path": "/ingredients/6/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group2"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group7"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry/*",
+				"textureMapping": [
+					"meat",
+					"group3"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish/*",
+				"textureMapping": [
+					"normal",
+					"group1"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/cooking/pastahot.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/7/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group2"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group7"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry 2/*",
+				"textureMapping": [
+					"meat",
+					"group3"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish 2/*",
+				"textureMapping": [
+					"normal",
+					"group1"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/cooking/pastahot.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/5/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group2"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group7"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry/*",
+				"textureMapping": [
+					"meat",
+					"group3"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish/*",
+				"textureMapping": [
+					"normal",
+					"group1"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/cooking/augratin.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/6/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group2"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group7"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry 2/*",
+				"textureMapping": [
+					"meat",
+					"group3"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish 2/*",
+				"textureMapping": [
+					"normal",
+					"group1"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/cooking/augratin.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/6/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group2"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group7"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry/*",
+				"textureMapping": [
+					"meat",
+					"group3"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish/*",
+				"textureMapping": [
+					"normal",
+					"group1"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/cooking/riceandbeans.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/7/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group2"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group7"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry 2/*",
+				"textureMapping": [
+					"meat",
+					"group3"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish 2/*",
+				"textureMapping": [
+					"normal",
+					"group1"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/cooking/riceandbeans.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/5/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-cookedpartbaked",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-cooked",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-cookedcharred",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-cookedpartbaked",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-cooked",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-cookedcharred",
+				"shapeElement": "bowl/red meat/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-cookedpartbaked",
+				"shapeElement": "bowl/poultry/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-cooked",
+				"shapeElement": "bowl/poultry/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-cookedcharred",
+				"shapeElement": "bowl/poultry/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-cookedpartbaked",
+				"shapeElement": "bowl/fish/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-cooked",
+				"shapeElement": "bowl/fish/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-cookedcharred",
+				"shapeElement": "bowl/fish/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-cooked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-cookedcharred",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-cooked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-cookedcharred",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-cooked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-cookedcharred",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-cooked",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-cookedcharred",
+				"shapeElement": "bowl/meatnugget 1/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/mixing/pastacold.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/6/validStacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-raw",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-cookedpartbaked",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-cooked",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-redmeat-cookedcharred",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group6"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-raw",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-cookedpartbaked",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-cooked",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-bushmeat-cookedcharred",
+				"shapeElement": "bowl/red meat 2/*",
+				"textureMapping": [
+					"meat",
+					"group8"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-raw",
+				"shapeElement": "bowl/poultry 2/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-cookedpartbaked",
+				"shapeElement": "bowl/poultry 2/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-cooked",
+				"shapeElement": "bowl/poultry 2/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-poultry-cookedcharred",
+				"shapeElement": "bowl/poultry 2/*",
+				"textureMapping": [
+					"meat",
+					"group5"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"shapeElement": "bowl/fish 2/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-cookedpartbaked",
+				"shapeElement": "bowl/fish 2/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-cooked",
+				"shapeElement": "bowl/fish 2/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-cookedcharred",
+				"shapeElement": "bowl/fish 2/*",
+				"textureMapping": [
+					"normal",
+					"group4"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-cooked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-redmeat-cookedcharred",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"redmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-cooked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-bushmeat-cookedcharred",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"bushmeat-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-cooked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-poultry-cookedcharred",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"poultry-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-cookedpartbaked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-cooked",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-cookedcharred",
+				"shapeElement": "bowl/meatnugget 2/*",
+				"textureMapping": [
+					"meatnugget",
+					"fishfillet-raw"
+				]
+			}
+		],
+		"file": "efmealsmodule:recipes/mixing/pastacold.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "efmealsmodule"
+			}
+		]
+	}
+]
