@@ -65,7 +65,7 @@
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
-		"file": "saucealot:recipes/kneading/saucedmeat-feverstone.json",
+		"file": "saucealot:compatibility/feverstonewilds/recipes/kneading/saucedmeat-feverstone.json",
 		"side": "server",
 		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "feverstonewilds" }]
 	},
@@ -79,7 +79,7 @@
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
-		"file": "saucealot:recipes/kneading/saucedmeat-feverstone.json",
+		"file": "saucealot:compatibility/feverstonewilds/recipes/kneading/saucedmeat-feverstone.json",
 		"side": "server",
 		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "feverstonewilds" }]
 	},
@@ -93,7 +93,7 @@
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
-		"file": "saucealot:recipes/kneading/saucedmeat-feverstone.json",
+		"file": "saucealot:compatibility/feverstonewilds/recipes/kneading/saucedmeat-feverstone.json",
 		"side": "server",
 		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "feverstonewilds" }]
 	},
@@ -107,7 +107,7 @@
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
-		"file": "saucealot:recipes/kneading/saucedmeat-primemeat.json",
+		"file": "saucealot:compatibility/butchering/recipes/kneading/saucedmeat-primemeat.json",
 		"side": "server",
 		"dependsOn": [{ "modid": "expandedfoods" }, { "modid": "butchering" }]
 	}

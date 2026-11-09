@@ -169,17 +169,17 @@
 	},
 	"texturesByType": {
 		"*-raw": {
-			"raw": { "base": "game:item/food/meat/raw" },
-			"meat": { "base": "game:item/food/meat/raw" }
+			"raw": { "base": "saucealot:item/food/bbqmeat/raw" },
+			"meat": { "base": "saucealot:item/food/bbqmeat/raw" }
 		},
 		"*-cookedpartbaked": {
-			"cooked": { "base": "game:item/food/meat/partbaked" }
+			"cooked": { "base": "saucealot:item/food/bbqmeat/partbaked" }
 		},
 		"*-cooked": {
-			"cooked": { "base": "game:item/food/meat/cooked" }
+			"cooked": { "base": "saucealot:item/food/bbqmeat/cooked" }
 		},
 		"*-cookedcharred": {
-			"cooked": { "base": "game:item/food/meat/charred" }
+			"cooked": { "base": "saucealot:item/food/bbqmeat/charred" }
 		}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "saucealot": ["*"] },
