@@ -1,0 +1,144 @@
+[
+	{
+		"op": "addeach",
+		"path": "/ingredients/0/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:saucednugget-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group7" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-poultry-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group3" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group2" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group1" ] }
+		],
+		"file": "game:recipes/cooking/meatystew.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/3/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:saucednugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group7" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-poultry-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-redmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group1" ] }
+		],
+		"file": "game:recipes/cooking/meatystew.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/4/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:saucednugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group7" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-poultry-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group5" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-redmeat-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group6" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group1" ] }
+		],
+		"file": "game:recipes/cooking/meatystew.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/4/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:saucednugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group8" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-redmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-poultry-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ] }
+		],
+		"file": "game:recipes/cooking/soup.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/8/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:saucednugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group8" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-redmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-poultry-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group1" ] }
+		],
+		"file": "game:recipes/cooking/porridge.json",
+		"side": "server",
+		"priority": 5,
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/7/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:saucednugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "bushmeat-raw" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-redmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "redmeat-raw" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-poultry-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group1" ] }
+		],
+		"file": "game:recipes/cooking/scrambledeggs.json",
+		"side": "server",
+		"priority": 5,
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/8/validStacks/-",
+		"value": [
+			{ "type": "item", "code": "saucealot:saucednugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "bushmeat-raw" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-redmeat-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "redmeat-raw" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-poultry-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+			{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group1" ] }
+		],
+		"file": "game:recipes/cooking/scrambledeggs.json",
+		"side": "server",
+		"priority": 5,
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/-",
+		"value": {
+			"code": "fermentedfish",
+			"sealHours": 336,
+			"ingredients": [
+				{ "type": "item", "code": "game:salt", "quantity": 8 },
+				{ "type": "item", "code": "saucealot:saucednugget-fish-raw", "quantity": 64 }
+			],
+			"output": { "type": "item", "code": "expandedfoods:fermentedfish-slop", "quantity": 1 }
+		},
+		"file": "game:recipes/barrel/fermentedfish.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/attributesByType/claypot-blue-cooked/textureMapping/saucealot:saucednugget-bushmeat-raw",
+		"value": [ "meatnugget", "bushmeat-raw" ],
+		"file": "game:blocktypes/clay/fired/pot",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/attributesByType/claypot-blue-cooked/textureMapping/saucealot:saucednugget-poultry-raw",
+		"value": [ "meatnugget", "poultry-raw" ],
+		"file": "game:blocktypes/clay/fired/pot",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/attributesByType/claypot-blue-cooked/textureMapping/saucealot:saucednugget-redmeat-raw",
+		"value": [ "meatnugget", "redmeat-raw" ],
+		"file": "game:blocktypes/clay/fired/pot",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/attributesByType/claypot-blue-cooked/textureMapping/saucealot:saucednugget-fish-raw",
+		"value": [ "meatnugget", "fishfillet-raw" ],
+		"file": "game:blocktypes/clay/fired/pot",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	}
+]

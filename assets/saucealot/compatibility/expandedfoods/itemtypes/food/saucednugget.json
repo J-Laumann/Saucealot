@@ -1,0 +1,270 @@
+{
+	"code": "saucednugget",
+	"class": "ExpandedFood",
+	"maxstacksize": 64,
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"handbook": { "groupBy": [ "saucednugget-*" ] },
+		"expandedNutritionProps": {
+			"expandedfoods:meatnugget-*-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"expandedfoods:fishnugget-raw": { "satiety": 0, "foodcategory": "Protein" },
+			"saucealot:coloneltso": { "satiety": 6, "health": 0.05, "foodcategory": "Protein" },
+			"saucealot:whitegravy": { "satiety": 7, "health": 0.05, "foodcategory": "Dairy" },
+			"saucealot:browngravy": { "satiety": 7, "health": 0.05, "foodcategory": "Protein" },
+			"saucealot:queso": { "satiety": 9, "foodcategory": "Dairy" },
+			"saucealot:spicyqueso": { "satiety": 10, "foodcategory": "Dairy" },
+			"saucealot:chilioil": { "satiety": 5, "foodcategory": "Protein" },
+			"saucealot:mayo": { "satiety": 7, "health": 0.025, "foodcategory": "Protein" },
+			"saucealot:tartar": { "satiety": 8, "health": 0.025, "foodcategory": "Protein" },
+			"expandedfoods:soysauce": { "satiety": 6.4, "health": 0.1, "foodcategory": "Protein" },
+			"expandedfoods:fishsauce": { "satiety": 5, "foodcategory": "Protein" },
+			"saucealot:bbq-*": { "satiety": 5, "health": 0.05, "foodcategory": "Fruit" },
+			"saucealot:winereduction-*": { "satiety": 7, "health": 0.1, "foodcategory": "Fruit" },
+			"saucealot:mushroomketchup-flyagaric": { "satiety": 6, "health": -0.65, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-earthball": { "satiety": 6, "health": -0.8, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-deathcap": { "satiety": 6, "health": -5, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-elfinsaddle": { "satiety": 6, "health": -0.7, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-jackolantern": { "satiety": 6, "health": -0.6, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-devilbolete": { "satiety": 6, "health": -1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-bitterbolete": { "satiety": 6, "health": -0.1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-devilstooth": { "satiety": 6, "health": -0.2, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-golddropmilkcap": { "satiety": 6, "health": -0.25, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-laughingjim": { "satiety": 6, "health": -1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-foolsconecap": { "satiety": 6, "health": -2, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-sickener": { "satiety": 6, "health": -0.7, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-funeralbell": { "satiety": 6, "health": -4, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-pinkbonnet": { "satiety": 6, "health": -1, "foodcategory": "Vegetable" },
+			"saucealot:mushroomketchup-*": { "satiety": 6, "foodcategory": "Vegetable" }
+		},
+		"nutritionPropsWhenInMealByType": {
+			"saucednugget-bushmeat-raw": { "satiety": 195, "foodcategory": "Protein" },
+			"saucednugget-redmeat-raw": { "satiety": 465, "foodcategory": "Protein" },
+			"saucednugget-poultry-raw": { "satiety": 330, "foodcategory": "Protein" },
+			"saucednugget-fish-raw": { "satiety": 400, "foodcategory": "Protein" }
+		},
+		"bakingPropertiesByType": {
+			"*-raw": {
+				"temp": 150,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:saucednugget-{meat}-cookedpartbaked"
+			},
+			"*-cookedpartbaked": {
+				"temp": 150,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:saucednugget-{meat}-cooked",
+				"initialCode": "saucealot:saucednugget-{meat}-raw"
+			},
+			"*-cooked": {
+				"temp": 150,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "saucealot:saucednugget-{meat}-cookedcharred",
+				"initialCode": "saucealot:saucednugget-{meat}-cookedpartbaked"
+			},
+			"*-cookedcharred": {
+				"temp": 150,
+				"levelFrom": 0.75,
+				"levelTo": 1.0,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"initialCode": "saucealot:saucednugget-{meat}-cooked"
+			}
+		},
+		"onDisplayTransformByType": {
+			"*-fish-*": {
+				"translation": { "x": 0, "y": 0.125, "z": 0 },
+				"rotation": { "x": 0, "y": -45, "z": 0 },
+				"scale": 1.25
+			},
+			"*": {
+				"translation": { "x": 0, "y": 0.25, "z": 0 },
+				"scale": 1.5
+			}
+		},
+		"inPiePropertiesByType": {
+			"saucednugget-redmeat-raw": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling", "mixingCodes": ["protein",
+				"soyredmeat", "soymeat",
+				"cheddarredmeat", "blueredmeat", "cottageredmeat", "cheddarmeat", "bluemeat", "cottagemeat", "cheesemeat",
+				"redmeatmushroomblack", "redmeatmushroomyellow", "redmeatmushroomoffwhite", "redmeatmushroomorange", "redmeatmushroomdevilstooth", "redmeatmushroomred", "redmeatmushroomgreen", "redmeatmushroomblue", "redmeatmushroomlobster", "redmeatmushroombrown", "redmeatmushroomwhite", "redmeatmushroompurple", "redmeatmushroompink", "redmeatmushroom", "meatmushroom",
+				"redmeatpeanut", "redmeatwalnut", "redmeatnut", "meatnut",
+				"redmeatquiche", "meatquiche",
+				"redmeatbellpepper", "redmeatcabbage", "redmeatcassava", "redmeatcarrot", "redmeatfennel", "redmeatolive", "redmeatonion", "redmeatparsnip", "redmeatpumpkin", "redmeatturnip", "redmeatveg", "potpie",
+				"redmeatapple", "redmeatbeautyberry", "redmeatblackberry", "redmeatblackcurrant", "redmeatblueberry", "redmeatbreadfruit", "redmeatcactusfruit,", "redmeatcherry", "redmeatcloudberry", "redmeatcranberry", "redmeatgooseberry", "redmeatguava", "redmeatkumquat", "redmeatlychee", "redmeatmango", "redmeatorange", "redmeatpeach", "redmeatpear", "redmeatpineapple", "redmeatplumnatal", "redmeatpomegranate", "redmeatraspberry", "redmeatredcurrant", "redmeatsaguaro", "redmeatstrawberry", "redmeatwhitecurrant", "redmeatfruit", "meatfruit",
+				"cheesemeatmushroom", "cheesemeatveg",
+				"meatfruitveg",
+				"meatvegquiche", "meatmushroomquiche",
+				"soypotpie",
+				"nutmeatveg",
+				"nutfruitmeatveg",
+				"cheesemeatvegmushroom"]
+			},
+			"saucednugget-bushmeat-raw": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling", "mixingCodes": ["protein",
+				"soybushmeat", "soymeat",
+				"cheddarbushmeat", "bluebushmeat", "cottagebushmeat", "cheddarmeat", "bluemeat", "cottagemeat", "cheesemeat",
+				"bushmeatmushroomblack", "bushmeatmushroomyellow", "bushmeatmushroomoffwhite", "bushmeatmushroomorange", "bushmeatmushroomdevilstooth", "bushmeatmushroomred", "bushmeatmushroomgreen", "bushmeatmushroomblue", "bushmeatmushroomlobster", "bushmeatmushroombrown", "bushmeatmushroomwhite", "bushmeatmushroompurple", "bushmeatmushroompink", "bushmeatmushroom", "meatmushroom",
+				"bushmeatpeanut", "bushmeatwalnut", "bushmeatnut", "meatnut",
+				"bushmeatquiche", "meatquiche",
+				"bushmeatbellpepper", "bushmeatcabbage", "bushmeatcassava", "bushmeatcarrot", "bushmeatfennel", "bushmeatolive", "bushmeatonion", "bushmeatparsnip", "bushmeatpumpkin", "bushmeatturnip", "bushmeatveg", "potpie",
+				"bushmeatapple", "bushmeatbeautyberry", "bushmeatblackberry", "bushmeatblackcurrant", "bushmeatblueberry", "bushmeatbreadfruit", "bushmeatcactusfruit,", "bushmeatcherry", "bushmeatcloudberry", "bushmeatcranberry", "bushmeatgooseberry", "bushmeatguava", "bushmeatkumquat", "bushmeatlychee", "bushmeatmango", "bushmeatorange", "bushmeatpeach", "bushmeatpear", "bushmeatpineapple", "bushmeatplumnatal", "bushmeatpomegranate", "bushmeatraspberry", "bushmeatredcurrant", "bushmeatsaguaro", "bushmeatstrawberry", "bushmeatwhitecurrant", "bushmeatfruit", "meatfruit",
+				"cheesemeatmushroom", "cheesemeatveg",
+				"meatfruitveg",
+				"meatvegquiche", "meatmushroomquiche",
+				"soypotpie",
+				"nutmeatveg",
+				"nutfruitmeatveg",
+				"cheesemeatvegmushroom"]
+			},
+			"saucednugget-poultry-raw": { "texture": "game:block/food/pie/fill-poultry", "partType": "Filling", "mixingCodes": ["protein",
+				"soypoultry", "soymeat",
+				"cheddarpoultry", "bluepoultry", "cottagepoultry", "cheddarmeat", "bluemeat", "cottagemeat", "cheesemeat",
+				"poultrymushroomblack", "poultrymushroomyellow", "poultrymushroomoffwhite", "poultrymushroomorange", "poultrymushroomdevilstooth", "poultrymushroomred", "poultrymushroomgreen", "poultrymushroomblue", "poultrymushroomlobster", "poultrymushroombrown", "poultrymushroomwhite", "poultrymushroompurple", "poultrymushroompink", "poultrymushroom", "meatmushroom",
+				"poultrypeanut", "poultrywalnut", "poultrynut", "meatnut",
+				"poultryquiche", "meatquiche",
+				"poultrybellpepper", "poultrycabbage", "poultrycassava", "poultrycarrot", "poultryfennel", "poultryolive", "poultryonion", "poultryparsnip", "poultrypumpkin", "poultryturnip", "poultrywalnut", "poultryveg", "potpie",
+				"poultryapple", "poultrybeautyberry", "poultryblackberry", "poultryblackcurrant", "poultryblueberry", "poultrybreadfruit", "poultrycactusfruit,", "poultrycherry", "poultrycloudberry", "poultrycranberry", "poultrygooseberry", "poultryguava", "poultrykumquat", "poultrylychee", "poultrymango", "poultryorange", "poultrypeach", "poultrypear", "poultrypineapple", "poultryplumnatal", "poultrypomegranate", "poultryraspberry", "poultryredcurrant", "poultrysaguaro", "poultrystrawberry", "poultrywhitecurrant", "poultryfruit", "meatfruit",
+				"cheesemeatmushroom", "cheesemeatveg",
+				"meatfruitveg",
+				"meatvegquiche", "meatmushroomquiche",
+				"soypotpie",
+				"nutmeatveg",
+				"nutfruitmeatveg",
+				"cheesemeatvegmushroom"]
+			},
+			"saucednugget-fish-raw": { "texture": "game:block/food/pie/fill-fish", "partType": "Filling", "mixingCodes": ["protein",
+				"soyfish", "soymeat",
+				"cheddarfish", "bluefish", "cottagefish", "cheddarmeat", "bluemeat", "cottagemeat", "cheesemeat",
+				"fishmushroomblack", "fishmushroomyellow", "fishmushroomoffwhite", "fishmushroomorange", "fishmushroomdevilstooth", "fishmushroomred", "fishmushroomgreen", "fishmushroomblue", "fishmushroomlobster", "fishmushroombrown", "fishmushroomwhite", "fishmushroompurple", "fishmushroompink", "fishmushroom", "meatmushroom",
+				"fishpeanut", "fishwalnut", "fishnut", "meatnut",
+				"fishquiche", "meatquiche",
+				"fishbellpepper", "fishcabbage", "fishcassava", "fishcarrot", "fishfennel", "fisholive", "fishonion", "fishparsnip", "fishpumpkin", "fishturnip", "fishveg", "potpie",
+				"fishapple", "fishbeautyberry", "fishblackberry", "fishblackcurrant", "fishblueberry", "fishbreadfruit", "fishcactusfruit,", "fishcherry", "fishcloudberry", "fishcranberry", "fishgooseberry", "fishguava", "fishkumquat", "fishlychee", "fishmango", "fishorange", "fishpeach", "fishpear", "fishpineapple", "fishplumnatal", "fishpomegranate", "fishraspberry", "fishredcurrant", "fishsaguaro", "fishstrawberry", "fishwhitecurrant", "fishfruit", "meatfruit",
+				"cheesemeatmushroom", "cheesemeatveg",
+				"meatfruitveg",
+				"meatvegquiche",
+				"soypotpie",
+				"nutmeatveg",
+				"nutfruitmeatveg",
+				"cheesemeatvegmushroom"]
+			}
+		}
+	},
+	"variantgroups": [
+		{ "code": "meat", "states": ["bushmeat", "poultry", "redmeat", "fish"] },
+		{ "code": "type", "states": ["raw", "cookedpartbaked", "cooked", "cookedcharred"] }
+	],
+	"shapebytype": {
+		"saucednugget-fish-raw": { "base": "expandedfoods:item/food/meat/fish-nugget" },
+		"@saucednugget-fish-(cookedpartbaked|cooked|cookedcharred)": { "base": "expandedfoods:item/food/meat/fish-cooked" },
+		"*-raw": { "base": "expandedfoods:item/food/meat/{meat}-nugget" },
+		"@*-(cookedpartbaked|cooked|cookedcharred)": { "base": "expandedfoods:item/food/meat/{meat}-cooked" }
+	},
+	"texturesByType": {
+		"*-raw": {
+			"raw": { "base": "game:item/food/meat/raw" },
+			"meat": { "base": "game:item/food/meat/raw" }
+		},
+		"*-cookedpartbaked": {
+			"cooked": { "base": "game:item/food/meat/partbaked" }
+		},
+		"*-cooked": {
+			"cooked": { "base": "game:item/food/meat/cooked" }
+		},
+		"*-cookedcharred": {
+			"cooked": { "base": "game:item/food/meat/charred" }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "saucealot": ["*"] },
+	"nutritionPropsByType": {
+		"saucednugget-fish-raw": { "satiety": 115, "foodcategory": "Protein" },
+
+		"*-bushmeat-cookedpartbaked": { "satiety": 122, "foodcategory": "Protein" },
+		"*-poultry-cookedpartbaked": { "satiety": 205, "foodcategory": "Protein" },
+		"*-redmeat-cookedpartbaked": { "satiety": 290, "foodcategory": "Protein" },
+		"*-fish-cookedpartbaked": { "satiety": 215, "foodcategory": "Protein" },
+
+		"*-bushmeat-cooked": { "satiety": 130, "foodcategory": "Protein" },
+		"*-poultry-cooked": { "satiety": 220, "foodcategory": "Protein" },
+		"*-redmeat-cooked": { "satiety": 310, "foodcategory": "Protein" },
+		"*-fish-cooked": { "satiety": 220, "foodcategory": "Protein" },
+
+		"*-bushmeat-cookedcharred": { "satiety": 125, "foodcategory": "Protein" },
+		"*-poultry-cookedcharred": { "satiety": 210, "foodcategory": "Protein" },
+		"*-redmeat-cookedcharred": { "satiety": 300, "foodcategory": "Protein" },
+		"*-fish-cookedcharred": { "satiety": 210, "foodcategory": "Protein" }
+	},
+	"transitionablePropsByType": {
+		"*-fish-raw": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"*-raw": [{
+			"type": "Perish",
+			"freshHours": { "avg": 36 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"@*-(cookedpartbaked|cooked)": [{
+			"type": "Perish",
+			"freshHours": { "avg": 120 },
+			"transitionHours": { "avg": 36 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"*-cookedcharred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 240 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 171, "y": -122, "z": 28 },
+			"origin": { "x": 0.43, "y": 0.04, "z": 0.53 },
+			"scale": 7
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0.05, "y": -0.05, "z": 0.1 },
+			"rotation": { "x": 1, "y": 9, "z": -11 },
+			"origin": { "x": 0.21, "y": -0.2, "z": 0.15 },
+			"scale": 1
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 180, "y": 33, "z": -180 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 5
+		}
+	},
+	"combustiblePropsByType": {
+		"@*-(raw|cookedpartbaked|cooked)": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "saucealot:saucednugget-{meat}-cookedcharred" },
+			"requiresContainer": false
+		}
+	}
+}

@@ -1,0 +1,48 @@
+[
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+					{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+					{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "expandedfoods:meatnugget-*-raw", "quantity": 1, "name": "meat" }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucednugget-{meat}-raw", "stackSize": 1 }
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{ "type": "item", "code": "saucealot:bbq-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:winereduction-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mushroomketchup-*", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:coloneltso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:chilioil", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
+					{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
+					{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
+				]
+			},
+			{ "inputs": [{ "type": "item", "code": "expandedfoods:fishnugget-raw", "quantity": 1 }] }
+		],
+		"output": { "type": "item", "code": "saucealot:saucednugget-fish-raw", "stackSize": 1 }
+	}
+]

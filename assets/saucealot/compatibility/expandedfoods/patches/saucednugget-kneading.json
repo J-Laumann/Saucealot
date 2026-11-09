@@ -1,0 +1,1358 @@
+[
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/3/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/2/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "acorns"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/breadedball.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/breadedball.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/dumpling.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/3/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/dumpling.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/4/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/fishpemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/fishpemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/4/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/fishpemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/fishpemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/4/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/pemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/pemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/4/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/pemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/pemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "primitivesurvival"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "primitivesurvival"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/primitivesurvival/snakepemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "primitivesurvival"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/5/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/primitivesurvival/snakepemmican.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			},
+			{
+				"modid": "primitivesurvival"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				],
+				"name": "meat"
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausage.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				],
+				"name": "meat"
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausage.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				],
+				"name": "meat"
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausage.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/3/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				],
+				"name": "meat"
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausage.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/3/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/2/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/2/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/3/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/4/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/4/ingredients/2/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/5/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/6/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/6/ingredients/2/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/7/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/7/ingredients/2/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/7/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/8/ingredients/1/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-*-raw",
+				"quantity": 1,
+				"allowedVariants": [
+					"bushmeat",
+					"poultry",
+					"redmeat"
+				]
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/0/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/1/ingredients/2/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/2/ingredients/4/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/3/ingredients/3/inputs/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			}
+		],
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "expandedfoods"
+			}
+		]
+	}
+]
