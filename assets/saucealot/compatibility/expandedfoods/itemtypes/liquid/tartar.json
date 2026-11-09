@@ -8,7 +8,6 @@
 		},
 		"hydration": 25,
 		"inBowlShape": { "base": "game:block/meal/liquid" },
-		"nutritionPropsWhenInMeal": { "satiety": 80, "health": 0.25, "foodcategory": "Protein" },
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
@@ -773,7 +772,6 @@
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 1.0
 	}],
-	"nutritionProps": { "satiety": 8, "health": 0.025, "foodcategory": "Protein" },
 	"guiTransform": {
 		"rotation": { "x": 128, "y": 40, "z": 7 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
