@@ -1,0 +1,30 @@
+[
+	{
+		"ingredients": [
+			{ "type": "item", "code": "expandedfoods:treesyrupportion-*", "quantity": 10, "name": "type" },
+			{ "type": "item", "code": "game:vinegarportion", "quantity": 10 }
+		],
+		"simmering": {
+			"meltingPoint": 160,
+			"meltingDuration": 100,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "saucealot:syrupglaze-{type}", "quantity": 20 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"ingredients": [
+			{ "type": "item", "code": "game:honeyportion", "quantity": 10 },
+			{ "type": "item", "code": "game:vinegarportion", "quantity": 10 }
+		],
+		"simmering": {
+			"meltingPoint": 160,
+			"meltingDuration": 100,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "saucealot:syrupglaze-honey", "quantity": 20 },
+			"requiresContainer": false
+		}
+	}
+]

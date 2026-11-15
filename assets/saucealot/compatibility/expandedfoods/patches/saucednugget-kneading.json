@@ -1291,6 +1291,11 @@
 				"type": "item",
 				"code": "saucealot:saucednugget-fish-raw",
 				"quantity": 1
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"quantity": 1
 			}
 		],
 		"file": "expandedfoods:recipes/kneading/sushi.json",
@@ -1308,6 +1313,11 @@
 			{
 				"type": "item",
 				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
 				"quantity": 1
 			}
 		],
@@ -1327,6 +1337,11 @@
 				"type": "item",
 				"code": "saucealot:saucednugget-fish-raw",
 				"quantity": 1
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
+				"quantity": 1
 			}
 		],
 		"file": "expandedfoods:recipes/kneading/sushi.json",
@@ -1344,6 +1359,11 @@
 			{
 				"type": "item",
 				"code": "saucealot:saucednugget-fish-raw",
+				"quantity": 1
+			},
+			{
+				"type": "item",
+				"code": "saucealot:saucedmeat-fish-raw",
 				"quantity": 1
 			}
 		],

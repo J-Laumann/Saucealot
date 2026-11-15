@@ -8,6 +8,7 @@
   "game:recipeingredient-item-bbq-blueberry-insturmentalcase": "blueberry barbecue sauce",
   "recipeingredient-item-bbq-blueberry": "blueberry barbecue sauce",
   "recipeingredient-item-bbq-blueberry-insturmentalcase": "blueberry barbecue sauce",
+  "recipeingredient-item-bbq-blueberry-topping": "blueberry barbecue sauce",
 
   "incontainer-item-bbq-cranberry": "Cranberry barbecue sauce",
   "game:incontainer-item-bbq-cranberry": "Cranberry barbecue sauce",
@@ -16,6 +17,7 @@
   "game:recipeingredient-item-bbq-cranberry-insturmentalcase": "cranberry barbecue sauce",
   "recipeingredient-item-bbq-cranberry": "cranberry barbecue sauce",
   "recipeingredient-item-bbq-cranberry-insturmentalcase": "cranberry barbecue sauce",
+  "recipeingredient-item-bbq-cranberry-topping": "cranberry barbecue sauce",
 
   "incontainer-item-bbq-redapple": "Red apple barbecue sauce",
   "game:incontainer-item-bbq-redapple": "Red apple barbecue sauce",
@@ -24,6 +26,7 @@
   "game:recipeingredient-item-bbq-redapple-insturmentalcase": "red apple barbecue sauce",
   "recipeingredient-item-bbq-redapple": "red apple barbecue sauce",
   "recipeingredient-item-bbq-redapple-insturmentalcase": "red apple barbecue sauce",
+  "recipeingredient-item-bbq-redapple-topping": "red apple barbecue sauce",
 
   "incontainer-item-bbq-redcurrant": "Red currant barbecue sauce",
   "game:incontainer-item-bbq-redcurrant": "Red currant barbecue sauce",
@@ -32,6 +35,7 @@
   "game:recipeingredient-item-bbq-redcurrant-insturmentalcase": "red currant barbecue sauce",
   "recipeingredient-item-bbq-redcurrant": "red currant barbecue sauce",
   "recipeingredient-item-bbq-redcurrant-insturmentalcase": "red currant barbecue sauce",
+  "recipeingredient-item-bbq-redcurrant-topping": "red currant barbecue sauce",
 
   "incontainer-item-bbq-whitecurrant": "White currant barbecue sauce",
   "game:incontainer-item-bbq-whitecurrant": "White currant barbecue sauce",
@@ -40,6 +44,7 @@
   "game:recipeingredient-item-bbq-whitecurrant-insturmentalcase": "white currant barbecue sauce",
   "recipeingredient-item-bbq-whitecurrant": "white currant barbecue sauce",
   "recipeingredient-item-bbq-whitecurrant-insturmentalcase": "white currant barbecue sauce",
+  "recipeingredient-item-bbq-whitecurrant-topping": "white currant barbecue sauce",
 
   "incontainer-item-bbq-blackcurrant": "Black currant barbecue sauce",
   "game:incontainer-item-bbq-blackcurrant": "Black currant barbecue sauce",
@@ -48,6 +53,7 @@
   "game:recipeingredient-item-bbq-blackcurrant-insturmentalcase": "black currant barbecue sauce",
   "recipeingredient-item-bbq-blackcurrant": "black currant barbecue sauce",
   "recipeingredient-item-bbq-blackcurrant-insturmentalcase": "black currant barbecue sauce",
+  "recipeingredient-item-bbq-blackcurrant-topping": "black currant barbecue sauce",
 
   "incontainer-item-bbq-saguaro": "Saguaro barbecue sauce",
   "game:incontainer-item-bbq-saguaro": "Saguaro barbecue sauce",
@@ -56,6 +62,7 @@
   "game:recipeingredient-item-bbq-saguaro-insturmentalcase": "saguaro barbecue sauce",
   "recipeingredient-item-bbq-saguaro": "saguaro barbecue sauce",
   "recipeingredient-item-bbq-saguaro-insturmentalcase": "saguaro barbecue sauce",
+  "recipeingredient-item-bbq-saguaro-topping": "saguaro barbecue sauce",
 
   "incontainer-item-bbq-pineapple": "Pineapple barbecue sauce",
   "game:incontainer-item-bbq-pineapple": "Pineapple barbecue sauce",
@@ -64,6 +71,7 @@
   "game:recipeingredient-item-bbq-pineapple-insturmentalcase": "pineapple barbecue sauce",
   "recipeingredient-item-bbq-pineapple": "pineapple barbecue sauce",
   "recipeingredient-item-bbq-pineapple-insturmentalcase": "pineapple barbecue sauce",
+  "recipeingredient-item-bbq-pineapple-topping": "pineapple barbecue sauce",
 
   "incontainer-item-bbq-yellowapple": "Yellow apple barbecue sauce",
   "game:incontainer-item-bbq-yellowapple": "Yellow apple barbecue sauce",
@@ -72,6 +80,7 @@
   "game:recipeingredient-item-bbq-yellowapple-insturmentalcase": "yellow apple barbecue sauce",
   "recipeingredient-item-bbq-yellowapple": "yellow apple barbecue sauce",
   "recipeingredient-item-bbq-yellowapple-insturmentalcase": "yellow apple barbecue sauce",
+  "recipeingredient-item-bbq-yellowapple-topping": "yellow apple barbecue sauce",
 
   "incontainer-item-bbq-pinkapple": "Pink apple barbecue sauce",
   "game:incontainer-item-bbq-pinkapple": "Pink apple barbecue sauce",
@@ -80,6 +89,7 @@
   "game:recipeingredient-item-bbq-pinkapple-insturmentalcase": "pink apple barbecue sauce",
   "recipeingredient-item-bbq-pinkapple": "pink apple barbecue sauce",
   "recipeingredient-item-bbq-pinkapple-insturmentalcase": "pink apple barbecue sauce",
+  "recipeingredient-item-bbq-pinkapple-topping": "pink apple barbecue sauce",
 
   "incontainer-item-bbq-cherry": "Cherry barbecue sauce",
   "game:incontainer-item-bbq-cherry": "Cherry barbecue sauce",
@@ -88,6 +98,7 @@
   "game:recipeingredient-item-bbq-cherry-insturmentalcase": "cherry barbecue sauce",
   "recipeingredient-item-bbq-cherry": "cherry barbecue sauce",
   "recipeingredient-item-bbq-cherry-insturmentalcase": "cherry barbecue sauce",
+  "recipeingredient-item-bbq-cherry-topping": "cherry barbecue sauce",
 
   "incontainer-item-bbq-peach": "Peach barbecue sauce",
   "game:incontainer-item-bbq-peach": "Peach barbecue sauce",
@@ -96,6 +107,7 @@
   "game:recipeingredient-item-bbq-peach-insturmentalcase": "peach barbecue sauce",
   "recipeingredient-item-bbq-peach": "peach barbecue sauce",
   "recipeingredient-item-bbq-peach-insturmentalcase": "peach barbecue sauce",
+  "recipeingredient-item-bbq-peach-topping": "peach barbecue sauce",
 
   "incontainer-item-bbq-pear": "Pear barbecue sauce",
   "game:incontainer-item-bbq-pear": "Pear barbecue sauce",
@@ -104,6 +116,7 @@
   "game:recipeingredient-item-bbq-pear-insturmentalcase": "pear barbecue sauce",
   "recipeingredient-item-bbq-pear": "pear barbecue sauce",
   "recipeingredient-item-bbq-pear-insturmentalcase": "pear barbecue sauce",
+  "recipeingredient-item-bbq-pear-topping": "pear barbecue sauce",
 
   "incontainer-item-bbq-orange": "Orange barbecue sauce",
   "game:incontainer-item-bbq-orange": "Orange barbecue sauce",
@@ -112,6 +125,7 @@
   "game:recipeingredient-item-bbq-orange-insturmentalcase": "orange barbecue sauce",
   "recipeingredient-item-bbq-orange": "orange barbecue sauce",
   "recipeingredient-item-bbq-orange-insturmentalcase": "orange barbecue sauce",
+  "recipeingredient-item-bbq-orange-topping": "orange barbecue sauce",
 
   "incontainer-item-bbq-mango": "Mango barbecue sauce",
   "game:incontainer-item-bbq-mango": "Mango barbecue sauce",
@@ -120,6 +134,7 @@
   "game:recipeingredient-item-bbq-mango-insturmentalcase": "mango barbecue sauce",
   "recipeingredient-item-bbq-mango": "mango barbecue sauce",
   "recipeingredient-item-bbq-mango-insturmentalcase": "mango barbecue sauce",
+  "recipeingredient-item-bbq-mango-topping": "mango barbecue sauce",
 
   "incontainer-item-bbq-lychee": "Lychee barbecue sauce",
   "game:incontainer-item-bbq-lychee": "Lychee barbecue sauce",
@@ -128,6 +143,7 @@
   "game:recipeingredient-item-bbq-lychee-insturmentalcase": "lychee barbecue sauce",
   "recipeingredient-item-bbq-lychee": "lychee barbecue sauce",
   "recipeingredient-item-bbq-lychee-insturmentalcase": "lychee barbecue sauce",
+  "recipeingredient-item-bbq-lychee-topping": "lychee barbecue sauce",
 
   "incontainer-item-bbq-pomegranate": "Pomegranate barbecue sauce",
   "game:incontainer-item-bbq-pomegranate": "Pomegranate barbecue sauce",
@@ -136,6 +152,7 @@
   "game:recipeingredient-item-bbq-pomegranate-insturmentalcase": "pomegranate barbecue sauce",
   "recipeingredient-item-bbq-pomegranate": "pomegranate barbecue sauce",
   "recipeingredient-item-bbq-pomegranate-insturmentalcase": "pomegranate barbecue sauce",
+  "recipeingredient-item-bbq-pomegranate-topping": "pomegranate barbecue sauce",
 
   "incontainer-item-bbq-honey": "Honey barbecue sauce",
   "game:incontainer-item-bbq-honey": "Honey barbecue sauce",
@@ -144,6 +161,7 @@
   "game:recipeingredient-item-bbq-honey-insturmentalcase": "honey barbecue sauce",
   "recipeingredient-item-bbq-honey": "honey barbecue sauce",
   "recipeingredient-item-bbq-honey-insturmentalcase": "honey barbecue sauce",
+  "recipeingredient-item-bbq-honey-topping": "honey barbecue sauce",
 
   "incontainer-item-bbq-strawberry": "Strawberry barbecue sauce",
   "game:incontainer-item-bbq-strawberry": "Strawberry barbecue sauce",
@@ -152,6 +170,7 @@
   "game:recipeingredient-item-bbq-strawberry-insturmentalcase": "strawberry barbecue sauce",
   "recipeingredient-item-bbq-strawberry": "strawberry barbecue sauce",
   "recipeingredient-item-bbq-strawberry-insturmentalcase": "strawberry barbecue sauce",
+  "recipeingredient-item-bbq-strawberry-topping": "strawberry barbecue sauce",
 
   "incontainer-item-bbq-blackberry": "Blackberry barbecue sauce",
   "game:incontainer-item-bbq-blackberry": "Blackberry barbecue sauce",
@@ -160,6 +179,7 @@
   "game:recipeingredient-item-bbq-blackberry-insturmentalcase": "blackberry barbecue sauce",
   "recipeingredient-item-bbq-blackberry": "blackberry barbecue sauce",
   "recipeingredient-item-bbq-blackberry-insturmentalcase": "blackberry barbecue sauce",
+  "recipeingredient-item-bbq-blackberry-topping": "blackberry barbecue sauce",
 
   "incontainer-item-bbq-breadfruit": "Breadfruit barbecue sauce",
   "game:incontainer-item-bbq-breadfruit": "Breadfruit barbecue sauce",
@@ -168,6 +188,7 @@
   "game:recipeingredient-item-bbq-breadfruit-insturmentalcase": "breadfruit barbecue sauce",
   "recipeingredient-item-bbq-breadfruit": "breadfruit barbecue sauce",
   "recipeingredient-item-bbq-breadfruit-insturmentalcase": "breadfruit barbecue sauce",
+  "recipeingredient-item-bbq-breadfruit-topping": "breadfruit barbecue sauce",
 
   "incontainer-item-bbq-beautyberry": "Beautyberry barbecue sauce",
   "game:incontainer-item-bbq-beautyberry": "Beautyberry barbecue sauce",
@@ -176,6 +197,7 @@
   "game:recipeingredient-item-bbq-beautyberry-insturmentalcase": "beautyberry barbecue sauce",
   "recipeingredient-item-bbq-beautyberry": "beautyberry barbecue sauce",
   "recipeingredient-item-bbq-beautyberry-insturmentalcase": "beautyberry barbecue sauce",
+  "recipeingredient-item-bbq-beautyberry-topping": "beautyberry barbecue sauce",
 
   "incontainer-item-bbq-cloudberry": "Cloudberry barbecue sauce",
   "game:incontainer-item-bbq-cloudberry": "Cloudberry barbecue sauce",
@@ -184,6 +206,7 @@
   "game:recipeingredient-item-bbq-cloudberry-insturmentalcase": "cloudberry barbecue sauce",
   "recipeingredient-item-bbq-cloudberry": "cloudberry barbecue sauce",
   "recipeingredient-item-bbq-cloudberry-insturmentalcase": "cloudberry barbecue sauce",
+  "recipeingredient-item-bbq-cloudberry-topping": "cloudberry barbecue sauce",
 
   "incontainer-item-bbq-raspberry": "Raspberry barbecue sauce",
   "game:incontainer-item-bbq-raspberry": "Raspberry barbecue sauce",
@@ -192,6 +215,7 @@
   "game:recipeingredient-item-bbq-raspberry-insturmentalcase": "raspberry barbecue sauce",
   "recipeingredient-item-bbq-raspberry": "raspberry barbecue sauce",
   "recipeingredient-item-bbq-raspberry-insturmentalcase": "raspberry barbecue sauce",
+  "recipeingredient-item-bbq-raspberry-topping": "raspberry barbecue sauce",
 
   "itemdesc-bbq-*": "Tangy barbecue sauce made from fruit reduction.",
   
@@ -212,6 +236,7 @@
   "game:recipeingredient-item-coloneltso-insturmentalcase": "Colonel Tso's Sauce",
   "recipeingredient-item-coloneltso": "Colonel Tso's Sauce",
   "recipeingredient-item-coloneltso-insturmentalcase": "Colonel Tso's Sauce",
+  "recipeingredient-item-coloneltso-topping": "Colonel Tso's Sauce",
 
 
   
@@ -244,6 +269,7 @@
   "game:recipeingredient-item-winereduction-apple-insturmentalcase": "apple wine reduction sauce",
   "recipeingredient-item-winereduction-apple": "apple wine reduction sauce",
   "recipeingredient-item-winereduction-apple-insturmentalcase": "apple wine reduction sauce",
+  "recipeingredient-item-winereduction-apple-topping": "apple wine reduction sauce",
 
   "incontainer-item-winereduction-beautyberry": "Beautyberry wine reduction sauce",
   "game:incontainer-item-winereduction-beautyberry": "Beautyberry wine reduction sauce",
@@ -252,6 +278,7 @@
   "game:recipeingredient-item-winereduction-beautyberry-insturmentalcase": "beautyberry wine reduction sauce",
   "recipeingredient-item-winereduction-beautyberry": "beautyberry wine reduction sauce",
   "recipeingredient-item-winereduction-beautyberry-insturmentalcase": "beautyberry wine reduction sauce",
+  "recipeingredient-item-winereduction-beautyberry-topping": "beautyberry wine reduction sauce",
 
   "incontainer-item-winereduction-blackberry": "Blackberry wine reduction sauce",
   "game:incontainer-item-winereduction-blackberry": "Blackberry wine reduction sauce",
@@ -260,6 +287,7 @@
   "game:recipeingredient-item-winereduction-blackberry-insturmentalcase": "blackberry wine reduction sauce",
   "recipeingredient-item-winereduction-blackberry": "blackberry wine reduction sauce",
   "recipeingredient-item-winereduction-blackberry-insturmentalcase": "blackberry wine reduction sauce",
+  "recipeingredient-item-winereduction-blackberry-topping": "blackberry wine reduction sauce",
 
   "incontainer-item-winereduction-blackcurrant": "Black currant wine reduction sauce",
   "game:incontainer-item-winereduction-blackcurrant": "Black currant wine reduction sauce",
@@ -268,6 +296,7 @@
   "game:recipeingredient-item-winereduction-blackcurrant-insturmentalcase": "black currant wine reduction sauce",
   "recipeingredient-item-winereduction-blackcurrant": "black currant wine reduction sauce",
   "recipeingredient-item-winereduction-blackcurrant-insturmentalcase": "black currant wine reduction sauce",
+  "recipeingredient-item-winereduction-blackcurrant-topping": "black currant wine reduction sauce",
 
   "incontainer-item-winereduction-blueberry": "Blueberry wine reduction sauce",
   "game:incontainer-item-winereduction-blueberry": "Blueberry wine reduction sauce",
@@ -276,6 +305,7 @@
   "game:recipeingredient-item-winereduction-blueberry-insturmentalcase": "blueberry wine reduction sauce",
   "recipeingredient-item-winereduction-blueberry": "blueberry wine reduction sauce",
   "recipeingredient-item-winereduction-blueberry-insturmentalcase": "blueberry wine reduction sauce",
+  "recipeingredient-item-winereduction-blueberry-topping": "blueberry wine reduction sauce",
 
   "incontainer-item-winereduction-breadfruit": "Breadfruit wine reduction sauce",
   "game:incontainer-item-winereduction-breadfruit": "Breadfruit wine reduction sauce",
@@ -284,6 +314,7 @@
   "game:recipeingredient-item-winereduction-breadfruit-insturmentalcase": "breadfruit wine reduction sauce",
   "recipeingredient-item-winereduction-breadfruit": "breadfruit wine reduction sauce",
   "recipeingredient-item-winereduction-breadfruit-insturmentalcase": "breadfruit wine reduction sauce",
+  "recipeingredient-item-winereduction-breadfruit-topping": "breadfruit wine reduction sauce",
 
   "incontainer-item-winereduction-cactusfruit": "Cactusfruit wine reduction sauce",
   "game:incontainer-item-winereduction-cactusfruit": "Cactusfruit wine reduction sauce",
@@ -292,6 +323,7 @@
   "game:recipeingredient-item-winereduction-cactusfruit-insturmentalcase": "cactusfruit wine reduction sauce",
   "recipeingredient-item-winereduction-cactusfruit": "cactusfruit wine reduction sauce",
   "recipeingredient-item-winereduction-cactusfruit-insturmentalcase": "cactusfruit wine reduction sauce",
+  "recipeingredient-item-winereduction-cactusfruit-topping": "cactusfruit wine reduction sauce",
 
   "incontainer-item-winereduction-cherry": "Cherry wine reduction sauce",
   "game:incontainer-item-winereduction-cherry": "Cherry wine reduction sauce",
@@ -300,6 +332,7 @@
   "game:recipeingredient-item-winereduction-cherry-insturmentalcase": "cherry wine reduction sauce",
   "recipeingredient-item-winereduction-cherry": "cherry wine reduction sauce",
   "recipeingredient-item-winereduction-cherry-insturmentalcase": "cherry wine reduction sauce",
+  "recipeingredient-item-winereduction-cherry-topping": "cherry wine reduction sauce",
 
   "incontainer-item-winereduction-cloudberry": "Cloudberry wine reduction sauce",
   "game:incontainer-item-winereduction-cloudberry": "Cloudberry wine reduction sauce",
@@ -308,6 +341,7 @@
   "game:recipeingredient-item-winereduction-cloudberry-insturmentalcase": "cloudberry wine reduction sauce",
   "recipeingredient-item-winereduction-cloudberry": "cloudberry wine reduction sauce",
   "recipeingredient-item-winereduction-cloudberry-insturmentalcase": "cloudberry wine reduction sauce",
+  "recipeingredient-item-winereduction-cloudberry-topping": "cloudberry wine reduction sauce",
 
   "incontainer-item-winereduction-cranberry": "Cranberry wine reduction sauce",
   "game:incontainer-item-winereduction-cranberry": "Cranberry wine reduction sauce",
@@ -316,6 +350,7 @@
   "game:recipeingredient-item-winereduction-cranberry-insturmentalcase": "cranberry wine reduction sauce",
   "recipeingredient-item-winereduction-cranberry": "cranberry wine reduction sauce",
   "recipeingredient-item-winereduction-cranberry-insturmentalcase": "cranberry wine reduction sauce",
+  "recipeingredient-item-winereduction-cranberry-topping": "cranberry wine reduction sauce",
 
   "incontainer-item-winereduction-gooseberry": "Gooseberry wine reduction sauce",
   "game:incontainer-item-winereduction-gooseberry": "Gooseberry wine reduction sauce",
@@ -324,6 +359,7 @@
   "game:recipeingredient-item-winereduction-gooseberry-insturmentalcase": "gooseberry wine reduction sauce",
   "recipeingredient-item-winereduction-gooseberry": "gooseberry wine reduction sauce",
   "recipeingredient-item-winereduction-gooseberry-insturmentalcase": "gooseberry wine reduction sauce",
+  "recipeingredient-item-winereduction-gooseberry-topping": "gooseberry wine reduction sauce",
 
   "incontainer-item-winereduction-guava": "Guava wine reduction sauce",
   "game:incontainer-item-winereduction-guava": "Guava wine reduction sauce",
@@ -332,6 +368,7 @@
   "game:recipeingredient-item-winereduction-guava-insturmentalcase": "guava wine reduction sauce",
   "recipeingredient-item-winereduction-guava": "guava wine reduction sauce",
   "recipeingredient-item-winereduction-guava-insturmentalcase": "guava wine reduction sauce",
+  "recipeingredient-item-winereduction-guava-topping": "guava wine reduction sauce",
 
   "incontainer-item-winereduction-kumquat": "Kumquat wine reduction sauce",
   "game:incontainer-item-winereduction-kumquat": "Kumquat wine reduction sauce",
@@ -340,6 +377,7 @@
   "game:recipeingredient-item-winereduction-kumquat-insturmentalcase": "kumquat wine reduction sauce",
   "recipeingredient-item-winereduction-kumquat": "kumquat wine reduction sauce",
   "recipeingredient-item-winereduction-kumquat-insturmentalcase": "kumquat wine reduction sauce",
+  "recipeingredient-item-winereduction-kumquat-topping": "kumquat wine reduction sauce",
 
   "incontainer-item-winereduction-lychee": "Lychee wine reduction sauce",
   "game:incontainer-item-winereduction-lychee": "Lychee wine reduction sauce",
@@ -348,6 +386,7 @@
   "game:recipeingredient-item-winereduction-lychee-insturmentalcase": "lychee wine reduction sauce",
   "recipeingredient-item-winereduction-lychee": "lychee wine reduction sauce",
   "recipeingredient-item-winereduction-lychee-insturmentalcase": "lychee wine reduction sauce",
+  "recipeingredient-item-winereduction-lychee-topping": "lychee wine reduction sauce",
 
   "incontainer-item-winereduction-mango": "Mango wine reduction sauce",
   "game:incontainer-item-winereduction-mango": "Mango wine reduction sauce",
@@ -356,6 +395,7 @@
   "game:recipeingredient-item-winereduction-mango-insturmentalcase": "mango wine reduction sauce",
   "recipeingredient-item-winereduction-mango": "mango wine reduction sauce",
   "recipeingredient-item-winereduction-mango-insturmentalcase": "mango wine reduction sauce",
+  "recipeingredient-item-winereduction-mango-topping": "mango wine reduction sauce",
 
   "incontainer-item-winereduction-orange": "Orange wine reduction sauce",
   "game:incontainer-item-winereduction-orange": "Orange wine reduction sauce",
@@ -364,6 +404,7 @@
   "game:recipeingredient-item-winereduction-orange-insturmentalcase": "orange wine reduction sauce",
   "recipeingredient-item-winereduction-orange": "orange wine reduction sauce",
   "recipeingredient-item-winereduction-orange-insturmentalcase": "orange wine reduction sauce",
+  "recipeingredient-item-winereduction-orange-topping": "orange wine reduction sauce",
 
   "incontainer-item-winereduction-peach": "Peach wine reduction sauce",
   "game:incontainer-item-winereduction-peach": "Peach wine reduction sauce",
@@ -372,6 +413,7 @@
   "game:recipeingredient-item-winereduction-peach-insturmentalcase": "peach wine reduction sauce",
   "recipeingredient-item-winereduction-peach": "peach wine reduction sauce",
   "recipeingredient-item-winereduction-peach-insturmentalcase": "peach wine reduction sauce",
+  "recipeingredient-item-winereduction-peach-topping": "peach wine reduction sauce",
 
   "incontainer-item-winereduction-pear": "Pear wine reduction sauce",
   "game:incontainer-item-winereduction-pear": "Pear wine reduction sauce",
@@ -380,6 +422,7 @@
   "game:recipeingredient-item-winereduction-pear-insturmentalcase": "pear wine reduction sauce",
   "recipeingredient-item-winereduction-pear": "pear wine reduction sauce",
   "recipeingredient-item-winereduction-pear-insturmentalcase": "pear wine reduction sauce",
+  "recipeingredient-item-winereduction-pear-topping": "pear wine reduction sauce",
 
   "incontainer-item-winereduction-pineapple": "Pineapple wine reduction sauce",
   "game:incontainer-item-winereduction-pineapple": "Pineapple wine reduction sauce",
@@ -388,6 +431,7 @@
   "game:recipeingredient-item-winereduction-pineapple-insturmentalcase": "pineapple wine reduction sauce",
   "recipeingredient-item-winereduction-pineapple": "pineapple wine reduction sauce",
   "recipeingredient-item-winereduction-pineapple-insturmentalcase": "pineapple wine reduction sauce",
+  "recipeingredient-item-winereduction-pineapple-topping": "pineapple wine reduction sauce",
 
   "incontainer-item-winereduction-plumnatal": "Big num-num wine reduction sauce",
   "game:incontainer-item-winereduction-plumnatal": "Big num-num wine reduction sauce",
@@ -396,6 +440,7 @@
   "game:recipeingredient-item-winereduction-plumnatal-insturmentalcase": "big num-num wine reduction sauce",
   "recipeingredient-item-winereduction-plumnatal": "big num-num wine reduction sauce",
   "recipeingredient-item-winereduction-plumnatal-insturmentalcase": "big num-num wine reduction sauce",
+  "recipeingredient-item-winereduction-plumnatal-topping": "big num-num wine reduction sauce",
 
   "incontainer-item-winereduction-pomegranate": "Pomegranate wine reduction sauce",
   "game:incontainer-item-winereduction-pomegranate": "Pomegranate wine reduction sauce",
@@ -404,6 +449,7 @@
   "game:recipeingredient-item-winereduction-pomegranate-insturmentalcase": "pomegranate wine reduction sauce",
   "recipeingredient-item-winereduction-pomegranate": "pomegranate wine reduction sauce",
   "recipeingredient-item-winereduction-pomegranate-insturmentalcase": "pomegranate wine reduction sauce",
+  "recipeingredient-item-winereduction-pomegranate-topping": "pomegranate wine reduction sauce",
 
   "incontainer-item-winereduction-raspberry": "Raspberry wine reduction sauce",
   "game:incontainer-item-winereduction-raspberry": "Raspberry wine reduction sauce",
@@ -412,6 +458,7 @@
   "game:recipeingredient-item-winereduction-raspberry-insturmentalcase": "raspberry wine reduction sauce",
   "recipeingredient-item-winereduction-raspberry": "raspberry wine reduction sauce",
   "recipeingredient-item-winereduction-raspberry-insturmentalcase": "raspberry wine reduction sauce",
+  "recipeingredient-item-winereduction-raspberry-topping": "raspberry wine reduction sauce",
 
   "incontainer-item-winereduction-redcurrant": "Red currant wine reduction sauce",
   "game:incontainer-item-winereduction-redcurrant": "Red currant wine reduction sauce",
@@ -420,6 +467,7 @@
   "game:recipeingredient-item-winereduction-redcurrant-insturmentalcase": "red currant wine reduction sauce",
   "recipeingredient-item-winereduction-redcurrant": "red currant wine reduction sauce",
   "recipeingredient-item-winereduction-redcurrant-insturmentalcase": "red currant wine reduction sauce",
+  "recipeingredient-item-winereduction-redcurrant-topping": "red currant wine reduction sauce",
 
   "incontainer-item-winereduction-saguaro": "Saguaro wine reduction sauce",
   "game:incontainer-item-winereduction-saguaro": "Saguaro wine reduction sauce",
@@ -428,6 +476,7 @@
   "game:recipeingredient-item-winereduction-saguaro-insturmentalcase": "saguaro wine reduction sauce",
   "recipeingredient-item-winereduction-saguaro": "saguaro wine reduction sauce",
   "recipeingredient-item-winereduction-saguaro-insturmentalcase": "saguaro wine reduction sauce",
+  "recipeingredient-item-winereduction-saguaro-topping": "saguaro wine reduction sauce",
 
   "incontainer-item-winereduction-strawberry": "Strawberry wine reduction sauce",
   "game:incontainer-item-winereduction-strawberry": "Strawberry wine reduction sauce",
@@ -436,6 +485,7 @@
   "game:recipeingredient-item-winereduction-strawberry-insturmentalcase": "strawberry wine reduction sauce",
   "recipeingredient-item-winereduction-strawberry": "strawberry wine reduction sauce",
   "recipeingredient-item-winereduction-strawberry-insturmentalcase": "strawberry wine reduction sauce",
+  "recipeingredient-item-winereduction-strawberry-topping": "strawberry wine reduction sauce",
 
   "incontainer-item-winereduction-whitecurrant": "White currant wine reduction sauce",
   "game:incontainer-item-winereduction-whitecurrant": "White currant wine reduction sauce",
@@ -444,6 +494,7 @@
   "game:recipeingredient-item-winereduction-whitecurrant-insturmentalcase": "white currant wine reduction sauce",
   "recipeingredient-item-winereduction-whitecurrant": "white currant wine reduction sauce",
   "recipeingredient-item-winereduction-whitecurrant-insturmentalcase": "white currant wine reduction sauce",
+  "recipeingredient-item-winereduction-whitecurrant-topping": "white currant wine reduction sauce",
 
 
 
@@ -468,6 +519,7 @@
   "game:recipeingredient-item-whitegravy-insturmentalcase": "white gravy",
   "recipeingredient-item-whitegravy": "white gravy",
   "recipeingredient-item-whitegravy-insturmentalcase": "white gravy",
+  "recipeingredient-item-whitegravy-topping": "white gravy",
 
   "item-browngravy": "Brown gravy",
   "incontainer-item-browngravy": "Brown gravy",
@@ -477,6 +529,7 @@
   "game:recipeingredient-item-browngravy-insturmentalcase": "brown gravy",
   "recipeingredient-item-browngravy": "brown gravy",
   "recipeingredient-item-browngravy-insturmentalcase": "brown gravy",
+  "recipeingredient-item-browngravy-topping": "brown gravy",
 
   "item-queso": "Queso sauce",
   "incontainer-item-queso": "Queso sauce",
@@ -486,6 +539,7 @@
   "game:recipeingredient-item-queso-insturmentalcase": "queso sauce",
   "recipeingredient-item-queso": "queso sauce",
   "recipeingredient-item-queso-insturmentalcase": "queso sauce",
+  "recipeingredient-item-queso-topping": "queso sauce",
 
   "item-spicyqueso": "Spicy queso sauce",
   "incontainer-item-spicyqueso": "Spicy queso sauce",
@@ -495,6 +549,7 @@
   "game:recipeingredient-item-spicyqueso-insturmentalcase": "spicy queso sauce",
   "recipeingredient-item-spicyqueso": "spicy queso sauce",
   "recipeingredient-item-spicyqueso-insturmentalcase": "spicy queso sauce",
+  "recipeingredient-item-spicyqueso-topping": "spicy queso sauce",
 
   "item-chilioil": "Chili oil",
   "incontainer-item-chilioil": "Chili oil",
@@ -504,6 +559,7 @@
   "game:recipeingredient-item-chilioil-insturmentalcase": "chili oil",
   "recipeingredient-item-chilioil": "chili oil",
   "recipeingredient-item-chilioil-insturmentalcase": "chili oil",
+  "recipeingredient-item-chilioil-topping": "chili oil",
 
   "item-mayo": "Mayonnaise",
   "incontainer-item-mayo": "Mayonnaise",
@@ -513,6 +569,7 @@
   "game:recipeingredient-item-mayo-insturmentalcase": "mayonnaise",
   "recipeingredient-item-mayo": "mayonnaise",
   "recipeingredient-item-mayo-insturmentalcase": "mayonnaise",
+  "recipeingredient-item-mayo-topping": "mayonnaise",
 
   "item-tartar": "Tartar sauce",
   "incontainer-item-tartar": "Tartar sauce",
@@ -522,6 +579,7 @@
   "game:recipeingredient-item-tartar-insturmentalcase": "tartar sauce",
   "recipeingredient-item-tartar": "tartar sauce",
   "recipeingredient-item-tartar-insturmentalcase": "tartar sauce",
+  "recipeingredient-item-tartar-topping": "tartar sauce",
 
   "itemdesc-mushroomketchup-*": "A savory ketchup simmered from mushrooms, salt, vinegar, and onion.",
 
@@ -532,6 +590,7 @@
   "game:recipeingredient-item-mushroomketchup-flyagaric-insturmentalcase": "fly agaric ketchup",
   "recipeingredient-item-mushroomketchup-flyagaric": "fly agaric ketchup",
   "recipeingredient-item-mushroomketchup-flyagaric-insturmentalcase": "fly agaric ketchup",
+  "recipeingredient-item-mushroomketchup-flyagaric-topping": "fly agaric ketchup",
 
   "item-mushroomketchup-fieldmushroom": "Field mushroom ketchup",
   "incontainer-item-mushroomketchup-fieldmushroom": "Field mushroom ketchup",
@@ -540,6 +599,7 @@
   "game:recipeingredient-item-mushroomketchup-fieldmushroom-insturmentalcase": "field mushroom ketchup",
   "recipeingredient-item-mushroomketchup-fieldmushroom": "field mushroom ketchup",
   "recipeingredient-item-mushroomketchup-fieldmushroom-insturmentalcase": "field mushroom ketchup",
+  "recipeingredient-item-mushroomketchup-fieldmushroom-topping": "field mushroom ketchup",
 
   "item-mushroomketchup-almondmushroom": "Almond mushroom ketchup",
   "incontainer-item-mushroomketchup-almondmushroom": "Almond mushroom ketchup",
@@ -548,6 +608,7 @@
   "game:recipeingredient-item-mushroomketchup-almondmushroom-insturmentalcase": "almond mushroom ketchup",
   "recipeingredient-item-mushroomketchup-almondmushroom": "almond mushroom ketchup",
   "recipeingredient-item-mushroomketchup-almondmushroom-insturmentalcase": "almond mushroom ketchup",
+  "recipeingredient-item-mushroomketchup-almondmushroom-topping": "almond mushroom ketchup",
 
   "item-mushroomketchup-bitterbolete": "Bitter bolete ketchup",
   "incontainer-item-mushroomketchup-bitterbolete": "Bitter bolete ketchup",
@@ -556,6 +617,7 @@
   "game:recipeingredient-item-mushroomketchup-bitterbolete-insturmentalcase": "bitter bolete ketchup",
   "recipeingredient-item-mushroomketchup-bitterbolete": "bitter bolete ketchup",
   "recipeingredient-item-mushroomketchup-bitterbolete-insturmentalcase": "bitter bolete ketchup",
+  "recipeingredient-item-mushroomketchup-bitterbolete-topping": "bitter bolete ketchup",
 
   "item-mushroomketchup-blacktrumpet": "Black trumpet ketchup",
   "incontainer-item-mushroomketchup-blacktrumpet": "Black trumpet ketchup",
@@ -564,6 +626,7 @@
   "game:recipeingredient-item-mushroomketchup-blacktrumpet-insturmentalcase": "black trumpet ketchup",
   "recipeingredient-item-mushroomketchup-blacktrumpet": "black trumpet ketchup",
   "recipeingredient-item-mushroomketchup-blacktrumpet-insturmentalcase": "black trumpet ketchup",
+  "recipeingredient-item-mushroomketchup-blacktrumpet-topping": "black trumpet ketchup",
 
   "item-mushroomketchup-chanterelle": "Chanterelle ketchup",
   "incontainer-item-mushroomketchup-chanterelle": "Chanterelle ketchup",
@@ -572,6 +635,7 @@
   "game:recipeingredient-item-mushroomketchup-chanterelle-insturmentalcase": "chanterelle ketchup",
   "recipeingredient-item-mushroomketchup-chanterelle": "chanterelle ketchup",
   "recipeingredient-item-mushroomketchup-chanterelle-insturmentalcase": "chanterelle ketchup",
+  "recipeingredient-item-mushroomketchup-chanterelle-topping": "chanterelle ketchup",
 
   "item-mushroomketchup-commonmorel": "Common morel ketchup",
   "incontainer-item-mushroomketchup-commonmorel": "Common morel ketchup",
@@ -580,6 +644,7 @@
   "game:recipeingredient-item-mushroomketchup-commonmorel-insturmentalcase": "common morel ketchup",
   "recipeingredient-item-mushroomketchup-commonmorel": "common morel ketchup",
   "recipeingredient-item-mushroomketchup-commonmorel-insturmentalcase": "common morel ketchup",
+  "recipeingredient-item-mushroomketchup-commonmorel-topping": "common morel ketchup",
 
   "item-mushroomketchup-deathcap": "Death cap ketchup",
   "incontainer-item-mushroomketchup-deathcap": "Death cap ketchup",
@@ -588,6 +653,7 @@
   "game:recipeingredient-item-mushroomketchup-deathcap-insturmentalcase": "death cap ketchup",
   "recipeingredient-item-mushroomketchup-deathcap": "death cap ketchup",
   "recipeingredient-item-mushroomketchup-deathcap-insturmentalcase": "death cap ketchup",
+  "recipeingredient-item-mushroomketchup-deathcap-topping": "death cap ketchup",
 
   "item-mushroomketchup-devilstooth": "Devil's tooth ketchup",
   "incontainer-item-mushroomketchup-devilstooth": "Devil's tooth ketchup",
@@ -596,6 +662,7 @@
   "game:recipeingredient-item-mushroomketchup-devilstooth-insturmentalcase": "devil's tooth ketchup",
   "recipeingredient-item-mushroomketchup-devilstooth": "devil's tooth ketchup",
   "recipeingredient-item-mushroomketchup-devilstooth-insturmentalcase": "devil's tooth ketchup",
+  "recipeingredient-item-mushroomketchup-devilstooth-topping": "devil's tooth ketchup",
 
   "item-mushroomketchup-devilbolete": "Devil bolete ketchup",
   "incontainer-item-mushroomketchup-devilbolete": "Devil bolete ketchup",
@@ -604,6 +671,7 @@
   "game:recipeingredient-item-mushroomketchup-devilbolete-insturmentalcase": "devil bolete ketchup",
   "recipeingredient-item-mushroomketchup-devilbolete": "devil bolete ketchup",
   "recipeingredient-item-mushroomketchup-devilbolete-insturmentalcase": "devil bolete ketchup",
+  "recipeingredient-item-mushroomketchup-devilbolete-topping": "devil bolete ketchup",
 
   "item-mushroomketchup-earthball": "Earthball ketchup",
   "incontainer-item-mushroomketchup-earthball": "Earthball ketchup",
@@ -612,6 +680,7 @@
   "game:recipeingredient-item-mushroomketchup-earthball-insturmentalcase": "earthball ketchup",
   "recipeingredient-item-mushroomketchup-earthball": "earthball ketchup",
   "recipeingredient-item-mushroomketchup-earthball-insturmentalcase": "earthball ketchup",
+  "recipeingredient-item-mushroomketchup-earthball-topping": "earthball ketchup",
 
   "item-mushroomketchup-elfinsaddle": "Elfin saddle ketchup",
   "incontainer-item-mushroomketchup-elfinsaddle": "Elfin saddle ketchup",
@@ -620,6 +689,7 @@
   "game:recipeingredient-item-mushroomketchup-elfinsaddle-insturmentalcase": "elfin saddle ketchup",
   "recipeingredient-item-mushroomketchup-elfinsaddle": "elfin saddle ketchup",
   "recipeingredient-item-mushroomketchup-elfinsaddle-insturmentalcase": "elfin saddle ketchup",
+  "recipeingredient-item-mushroomketchup-elfinsaddle-topping": "elfin saddle ketchup",
 
   "item-mushroomketchup-golddropmilkcap": "Gold drop milkcap ketchup",
   "incontainer-item-mushroomketchup-golddropmilkcap": "Gold drop milkcap ketchup",
@@ -628,6 +698,7 @@
   "game:recipeingredient-item-mushroomketchup-golddropmilkcap-insturmentalcase": "gold drop milkcap ketchup",
   "recipeingredient-item-mushroomketchup-golddropmilkcap": "gold drop milkcap ketchup",
   "recipeingredient-item-mushroomketchup-golddropmilkcap-insturmentalcase": "gold drop milkcap ketchup",
+  "recipeingredient-item-mushroomketchup-golddropmilkcap-topping": "gold drop milkcap ketchup",
 
   "item-mushroomketchup-greencrackedrussula": "Green cracked russula ketchup",
   "incontainer-item-mushroomketchup-greencrackedrussula": "Green cracked russula ketchup",
@@ -636,6 +707,7 @@
   "game:recipeingredient-item-mushroomketchup-greencrackedrussula-insturmentalcase": "green cracked russula ketchup",
   "recipeingredient-item-mushroomketchup-greencrackedrussula": "green cracked russula ketchup",
   "recipeingredient-item-mushroomketchup-greencrackedrussula-insturmentalcase": "green cracked russula ketchup",
+  "recipeingredient-item-mushroomketchup-greencrackedrussula-topping": "green cracked russula ketchup",
 
   "item-mushroomketchup-indigomilkcap": "Indigo milkcap ketchup",
   "incontainer-item-mushroomketchup-indigomilkcap": "Indigo milkcap ketchup",
@@ -644,6 +716,7 @@
   "game:recipeingredient-item-mushroomketchup-indigomilkcap-insturmentalcase": "indigo milkcap ketchup",
   "recipeingredient-item-mushroomketchup-indigomilkcap": "indigo milkcap ketchup",
   "recipeingredient-item-mushroomketchup-indigomilkcap-insturmentalcase": "indigo milkcap ketchup",
+  "recipeingredient-item-mushroomketchup-indigomilkcap-topping": "indigo milkcap ketchup",
 
   "item-mushroomketchup-jackolantern": "Jack o'lantern ketchup",
   "incontainer-item-mushroomketchup-jackolantern": "Jack o'lantern ketchup",
@@ -652,6 +725,7 @@
   "game:recipeingredient-item-mushroomketchup-jackolantern-insturmentalcase": "jack o'lantern ketchup",
   "recipeingredient-item-mushroomketchup-jackolantern": "jack o'lantern ketchup",
   "recipeingredient-item-mushroomketchup-jackolantern-insturmentalcase": "jack o'lantern ketchup",
+  "recipeingredient-item-mushroomketchup-jackolantern-topping": "jack o'lantern ketchup",
 
   "item-mushroomketchup-kingbolete": "King bolete ketchup",
   "incontainer-item-mushroomketchup-kingbolete": "King bolete ketchup",
@@ -660,6 +734,7 @@
   "game:recipeingredient-item-mushroomketchup-kingbolete-insturmentalcase": "king bolete ketchup",
   "recipeingredient-item-mushroomketchup-kingbolete": "king bolete ketchup",
   "recipeingredient-item-mushroomketchup-kingbolete-insturmentalcase": "king bolete ketchup",
+  "recipeingredient-item-mushroomketchup-kingbolete-topping": "king bolete ketchup",
 
   "item-mushroomketchup-lobster": "Lobster mushroom ketchup",
   "incontainer-item-mushroomketchup-lobster": "Lobster mushroom ketchup",
@@ -668,6 +743,7 @@
   "game:recipeingredient-item-mushroomketchup-lobster-insturmentalcase": "lobster mushroom ketchup",
   "recipeingredient-item-mushroomketchup-lobster": "lobster mushroom ketchup",
   "recipeingredient-item-mushroomketchup-lobster-insturmentalcase": "lobster mushroom ketchup",
+  "recipeingredient-item-mushroomketchup-lobster-topping": "lobster mushroom ketchup",
 
   "item-mushroomketchup-orangeoakbolete": "Orange oak bolete ketchup",
   "incontainer-item-mushroomketchup-orangeoakbolete": "Orange oak bolete ketchup",
@@ -676,6 +752,7 @@
   "game:recipeingredient-item-mushroomketchup-orangeoakbolete-insturmentalcase": "orange oak bolete ketchup",
   "recipeingredient-item-mushroomketchup-orangeoakbolete": "orange oak bolete ketchup",
   "recipeingredient-item-mushroomketchup-orangeoakbolete-insturmentalcase": "orange oak bolete ketchup",
+  "recipeingredient-item-mushroomketchup-orangeoakbolete-topping": "orange oak bolete ketchup",
 
   "item-mushroomketchup-paddystraw": "Paddy straw ketchup",
   "incontainer-item-mushroomketchup-paddystraw": "Paddy straw ketchup",
@@ -684,6 +761,7 @@
   "game:recipeingredient-item-mushroomketchup-paddystraw-insturmentalcase": "paddy straw ketchup",
   "recipeingredient-item-mushroomketchup-paddystraw": "paddy straw ketchup",
   "recipeingredient-item-mushroomketchup-paddystraw-insturmentalcase": "paddy straw ketchup",
+  "recipeingredient-item-mushroomketchup-paddystraw-topping": "paddy straw ketchup",
 
   "item-mushroomketchup-puffball": "Puffball ketchup",
   "incontainer-item-mushroomketchup-puffball": "Puffball ketchup",
@@ -692,6 +770,7 @@
   "game:recipeingredient-item-mushroomketchup-puffball-insturmentalcase": "puffball ketchup",
   "recipeingredient-item-mushroomketchup-puffball": "puffball ketchup",
   "recipeingredient-item-mushroomketchup-puffball-insturmentalcase": "puffball ketchup",
+  "recipeingredient-item-mushroomketchup-puffball-topping": "puffball ketchup",
 
   "item-mushroomketchup-redwinecap": "Red wine cap ketchup",
   "incontainer-item-mushroomketchup-redwinecap": "Red wine cap ketchup",
@@ -700,6 +779,7 @@
   "game:recipeingredient-item-mushroomketchup-redwinecap-insturmentalcase": "red wine cap ketchup",
   "recipeingredient-item-mushroomketchup-redwinecap": "red wine cap ketchup",
   "recipeingredient-item-mushroomketchup-redwinecap-insturmentalcase": "red wine cap ketchup",
+  "recipeingredient-item-mushroomketchup-redwinecap-topping": "red wine cap ketchup",
 
   "item-mushroomketchup-saffronmilkcap": "Saffron milkcap ketchup",
   "incontainer-item-mushroomketchup-saffronmilkcap": "Saffron milkcap ketchup",
@@ -708,6 +788,7 @@
   "game:recipeingredient-item-mushroomketchup-saffronmilkcap-insturmentalcase": "saffron milkcap ketchup",
   "recipeingredient-item-mushroomketchup-saffronmilkcap": "saffron milkcap ketchup",
   "recipeingredient-item-mushroomketchup-saffronmilkcap-insturmentalcase": "saffron milkcap ketchup",
+  "recipeingredient-item-mushroomketchup-saffronmilkcap-topping": "saffron milkcap ketchup",
 
   "item-mushroomketchup-violetwebcap": "Violet webcap ketchup",
   "incontainer-item-mushroomketchup-violetwebcap": "Violet webcap ketchup",
@@ -716,6 +797,7 @@
   "game:recipeingredient-item-mushroomketchup-violetwebcap-insturmentalcase": "violet webcap ketchup",
   "recipeingredient-item-mushroomketchup-violetwebcap": "violet webcap ketchup",
   "recipeingredient-item-mushroomketchup-violetwebcap-insturmentalcase": "violet webcap ketchup",
+  "recipeingredient-item-mushroomketchup-violetwebcap-topping": "violet webcap ketchup",
 
   "item-mushroomketchup-witchhat": "Witch hat ketchup",
   "incontainer-item-mushroomketchup-witchhat": "Witch hat ketchup",
@@ -724,6 +806,7 @@
   "game:recipeingredient-item-mushroomketchup-witchhat-insturmentalcase": "witch hat ketchup",
   "recipeingredient-item-mushroomketchup-witchhat": "witch hat ketchup",
   "recipeingredient-item-mushroomketchup-witchhat-insturmentalcase": "witch hat ketchup",
+  "recipeingredient-item-mushroomketchup-witchhat-topping": "witch hat ketchup",
 
   "item-mushroomketchup-beardedtooth": "Bearded tooth ketchup",
   "incontainer-item-mushroomketchup-beardedtooth": "Bearded tooth ketchup",
@@ -732,6 +815,7 @@
   "game:recipeingredient-item-mushroomketchup-beardedtooth-insturmentalcase": "bearded tooth ketchup",
   "recipeingredient-item-mushroomketchup-beardedtooth": "bearded tooth ketchup",
   "recipeingredient-item-mushroomketchup-beardedtooth-insturmentalcase": "bearded tooth ketchup",
+  "recipeingredient-item-mushroomketchup-beardedtooth-topping": "bearded tooth ketchup",
 
   "item-mushroomketchup-chickenofthewoods": "Chicken of the woods ketchup",
   "incontainer-item-mushroomketchup-chickenofthewoods": "Chicken of the woods ketchup",
@@ -740,6 +824,7 @@
   "game:recipeingredient-item-mushroomketchup-chickenofthewoods-insturmentalcase": "chicken of the woods ketchup",
   "recipeingredient-item-mushroomketchup-chickenofthewoods": "chicken of the woods ketchup",
   "recipeingredient-item-mushroomketchup-chickenofthewoods-insturmentalcase": "chicken of the woods ketchup",
+  "recipeingredient-item-mushroomketchup-chickenofthewoods-topping": "chicken of the woods ketchup",
 
   "item-mushroomketchup-dryadsaddle": "Dryad's saddle ketchup",
   "incontainer-item-mushroomketchup-dryadsaddle": "Dryad's saddle ketchup",
@@ -748,6 +833,7 @@
   "game:recipeingredient-item-mushroomketchup-dryadsaddle-insturmentalcase": "dryad's saddle ketchup",
   "recipeingredient-item-mushroomketchup-dryadsaddle": "dryad's saddle ketchup",
   "recipeingredient-item-mushroomketchup-dryadsaddle-insturmentalcase": "dryad's saddle ketchup",
+  "recipeingredient-item-mushroomketchup-dryadsaddle-topping": "dryad's saddle ketchup",
 
   "item-mushroomketchup-pinkoyster": "Pink oyster ketchup",
   "incontainer-item-mushroomketchup-pinkoyster": "Pink oyster ketchup",
@@ -756,6 +842,7 @@
   "game:recipeingredient-item-mushroomketchup-pinkoyster-insturmentalcase": "pink oyster ketchup",
   "recipeingredient-item-mushroomketchup-pinkoyster": "pink oyster ketchup",
   "recipeingredient-item-mushroomketchup-pinkoyster-insturmentalcase": "pink oyster ketchup",
+  "recipeingredient-item-mushroomketchup-pinkoyster-topping": "pink oyster ketchup",
 
   "item-mushroomketchup-tinderhoof": "Tinder hoof ketchup",
   "incontainer-item-mushroomketchup-tinderhoof": "Tinder hoof ketchup",
@@ -764,6 +851,7 @@
   "game:recipeingredient-item-mushroomketchup-tinderhoof-insturmentalcase": "tinder hoof ketchup",
   "recipeingredient-item-mushroomketchup-tinderhoof": "tinder hoof ketchup",
   "recipeingredient-item-mushroomketchup-tinderhoof-insturmentalcase": "tinder hoof ketchup",
+  "recipeingredient-item-mushroomketchup-tinderhoof-topping": "tinder hoof ketchup",
 
   "item-mushroomketchup-whiteoyster": "White oyster ketchup",
   "incontainer-item-mushroomketchup-whiteoyster": "White oyster ketchup",
@@ -772,6 +860,7 @@
   "game:recipeingredient-item-mushroomketchup-whiteoyster-insturmentalcase": "white oyster ketchup",
   "recipeingredient-item-mushroomketchup-whiteoyster": "white oyster ketchup",
   "recipeingredient-item-mushroomketchup-whiteoyster-insturmentalcase": "white oyster ketchup",
+  "recipeingredient-item-mushroomketchup-whiteoyster-topping": "white oyster ketchup",
 
   "item-mushroomketchup-reishi": "Reishi ketchup",
   "incontainer-item-mushroomketchup-reishi": "Reishi ketchup",
@@ -780,6 +869,7 @@
   "game:recipeingredient-item-mushroomketchup-reishi-insturmentalcase": "reishi ketchup",
   "recipeingredient-item-mushroomketchup-reishi": "reishi ketchup",
   "recipeingredient-item-mushroomketchup-reishi-insturmentalcase": "reishi ketchup",
+  "recipeingredient-item-mushroomketchup-reishi-topping": "reishi ketchup",
 
   "item-mushroomketchup-funeralbell": "Funeral bell ketchup",
   "incontainer-item-mushroomketchup-funeralbell": "Funeral bell ketchup",
@@ -788,6 +878,7 @@
   "game:recipeingredient-item-mushroomketchup-funeralbell-insturmentalcase": "funeral bell ketchup",
   "recipeingredient-item-mushroomketchup-funeralbell": "funeral bell ketchup",
   "recipeingredient-item-mushroomketchup-funeralbell-insturmentalcase": "funeral bell ketchup",
+  "recipeingredient-item-mushroomketchup-funeralbell-topping": "funeral bell ketchup",
 
   "item-mushroomketchup-deerear": "Deer's ear ketchup",
   "incontainer-item-mushroomketchup-deerear": "Deer's ear ketchup",
@@ -796,6 +887,7 @@
   "game:recipeingredient-item-mushroomketchup-deerear-insturmentalcase": "deer's ear ketchup",
   "recipeingredient-item-mushroomketchup-deerear": "deer's ear ketchup",
   "recipeingredient-item-mushroomketchup-deerear-insturmentalcase": "deer's ear ketchup",
+  "recipeingredient-item-mushroomketchup-deerear-topping": "deer's ear ketchup",
 
   "item-mushroomketchup-livermushroom": "Liver mushroom ketchup",
   "incontainer-item-mushroomketchup-livermushroom": "Liver mushroom ketchup",
@@ -804,6 +896,7 @@
   "game:recipeingredient-item-mushroomketchup-livermushroom-insturmentalcase": "liver mushroom ketchup",
   "recipeingredient-item-mushroomketchup-livermushroom": "liver mushroom ketchup",
   "recipeingredient-item-mushroomketchup-livermushroom-insturmentalcase": "liver mushroom ketchup",
+  "recipeingredient-item-mushroomketchup-livermushroom-topping": "liver mushroom ketchup",
 
   "item-mushroomketchup-pinkbonnet": "Pink bonnet ketchup",
   "incontainer-item-mushroomketchup-pinkbonnet": "Pink bonnet ketchup",
@@ -812,6 +905,7 @@
   "game:recipeingredient-item-mushroomketchup-pinkbonnet-insturmentalcase": "pink bonnet ketchup",
   "recipeingredient-item-mushroomketchup-pinkbonnet": "pink bonnet ketchup",
   "recipeingredient-item-mushroomketchup-pinkbonnet-insturmentalcase": "pink bonnet ketchup",
+  "recipeingredient-item-mushroomketchup-pinkbonnet-topping": "pink bonnet ketchup",
 
   "item-mushroomketchup-shiitake": "Shiitake ketchup",
   "incontainer-item-mushroomketchup-shiitake": "Shiitake ketchup",
@@ -820,6 +914,7 @@
   "game:recipeingredient-item-mushroomketchup-shiitake-insturmentalcase": "shiitake ketchup",
   "recipeingredient-item-mushroomketchup-shiitake": "shiitake ketchup",
   "recipeingredient-item-mushroomketchup-shiitake-insturmentalcase": "shiitake ketchup",
+  "recipeingredient-item-mushroomketchup-shiitake-topping": "shiitake ketchup",
 
   "item-mushroomketchup-bluemeanie": "Blue meanie ketchup",
   "incontainer-item-mushroomketchup-bluemeanie": "Blue meanie ketchup",
@@ -828,6 +923,7 @@
   "game:recipeingredient-item-mushroomketchup-bluemeanie-insturmentalcase": "blue meanie ketchup",
   "recipeingredient-item-mushroomketchup-bluemeanie": "blue meanie ketchup",
   "recipeingredient-item-mushroomketchup-bluemeanie-insturmentalcase": "blue meanie ketchup",
+  "recipeingredient-item-mushroomketchup-bluemeanie-topping": "blue meanie ketchup",
 
   "item-mushroomketchup-foolsconecap": "Fool's cone cap ketchup",
   "incontainer-item-mushroomketchup-foolsconecap": "Fool's cone cap ketchup",
@@ -836,6 +932,7 @@
   "game:recipeingredient-item-mushroomketchup-foolsconecap-insturmentalcase": "fool's cone cap ketchup",
   "recipeingredient-item-mushroomketchup-foolsconecap": "fool's cone cap ketchup",
   "recipeingredient-item-mushroomketchup-foolsconecap-insturmentalcase": "fool's cone cap ketchup",
+  "recipeingredient-item-mushroomketchup-foolsconecap-topping": "fool's cone cap ketchup",
 
   "item-mushroomketchup-goldcap": "Gold cap ketchup",
   "incontainer-item-mushroomketchup-goldcap": "Gold cap ketchup",
@@ -844,6 +941,7 @@
   "game:recipeingredient-item-mushroomketchup-goldcap-insturmentalcase": "gold cap ketchup",
   "recipeingredient-item-mushroomketchup-goldcap": "gold cap ketchup",
   "recipeingredient-item-mushroomketchup-goldcap-insturmentalcase": "gold cap ketchup",
+  "recipeingredient-item-mushroomketchup-goldcap-topping": "gold cap ketchup",
 
   "item-mushroomketchup-honeymushroom": "Honey mushroom ketchup",
   "incontainer-item-mushroomketchup-honeymushroom": "Honey mushroom ketchup",
@@ -852,6 +950,7 @@
   "game:recipeingredient-item-mushroomketchup-honeymushroom-insturmentalcase": "honey mushroom ketchup",
   "recipeingredient-item-mushroomketchup-honeymushroom": "honey mushroom ketchup",
   "recipeingredient-item-mushroomketchup-honeymushroom-insturmentalcase": "honey mushroom ketchup",
+  "recipeingredient-item-mushroomketchup-honeymushroom-topping": "honey mushroom ketchup",
 
   "item-mushroomketchup-laughingjim": "Laughing Jim ketchup",
   "incontainer-item-mushroomketchup-laughingjim": "Laughing Jim ketchup",
@@ -860,6 +959,7 @@
   "game:recipeingredient-item-mushroomketchup-laughingjim-insturmentalcase": "laughing jim ketchup",
   "recipeingredient-item-mushroomketchup-laughingjim": "laughing jim ketchup",
   "recipeingredient-item-mushroomketchup-laughingjim-insturmentalcase": "laughing jim ketchup",
+  "recipeingredient-item-mushroomketchup-laughingjim-topping": "laughing jim ketchup",
 
   "item-mushroomketchup-libertycap": "Liberty cap ketchup",
   "incontainer-item-mushroomketchup-libertycap": "Liberty cap ketchup",
@@ -868,6 +968,7 @@
   "game:recipeingredient-item-mushroomketchup-libertycap-insturmentalcase": "liberty cap ketchup",
   "recipeingredient-item-mushroomketchup-libertycap": "liberty cap ketchup",
   "recipeingredient-item-mushroomketchup-libertycap-insturmentalcase": "liberty cap ketchup",
+  "recipeingredient-item-mushroomketchup-libertycap-topping": "liberty cap ketchup",
 
   "item-mushroomketchup-sickener": "Sickener ketchup",
   "incontainer-item-mushroomketchup-sickener": "Sickener ketchup",
@@ -876,6 +977,7 @@
   "game:recipeingredient-item-mushroomketchup-sickener-insturmentalcase": "sickener ketchup",
   "recipeingredient-item-mushroomketchup-sickener": "sickener ketchup",
   "recipeingredient-item-mushroomketchup-sickener-insturmentalcase": "sickener ketchup",
+  "recipeingredient-item-mushroomketchup-sickener-topping": "sickener ketchup",
 
   "item-mushroomketchup-wavycap": "Wavy cap ketchup",
   "incontainer-item-mushroomketchup-wavycap": "Wavy cap ketchup",
@@ -884,6 +986,7 @@
   "game:recipeingredient-item-mushroomketchup-wavycap-insturmentalcase": "wavy cap ketchup",
   "recipeingredient-item-mushroomketchup-wavycap": "wavy cap ketchup",
   "recipeingredient-item-mushroomketchup-wavycap-insturmentalcase": "wavy cap ketchup",
+  "recipeingredient-item-mushroomketchup-wavycap-topping": "wavy cap ketchup",
   "item-handbooktitle-mushroomketchup": "Mushroom ketchup",
   "item-handbooktext-mushroomketchup": "Simmer any mushroom with salt, vinegar, and onion to make a ketchup that retains that mushroom's nourishment. This includes poisons and psychedelic effects.",
 
@@ -1250,5 +1353,35 @@
 	"game:meal-ingredient-pastacold-primary-saucednugget-bushmeat-*": "sauced bushmeat nuggets",
 	"game:meal-ingredient-pastacold-secondary-saucednugget-bushmeat-*": "sauced bushmeat nuggets",
 	"game:meal-ingredient-pastacold-primary-saucednugget-fish-*": "sauced fish nuggets",
-	"game:meal-ingredient-pastacold-secondary-saucednugget-fish-*": "sauced fish nuggets"
+	"game:meal-ingredient-pastacold-secondary-saucednugget-fish-*": "sauced fish nuggets",
+
+	"item-syrupglaze-maple": "Maple glaze",
+	"incontainer-item-syrupglaze-maple": "Maple glaze",
+	"game:incontainer-item-syrupglaze-maple": "Maple glaze",
+	"itemdesc-syrupglaze-maple": "A sweet glaze simmered from maple syrup and vinegar.",
+	"itemdesc-syrupglaze-birch": "A sweet glaze simmered from birch syrup and vinegar.",
+	"game:recipeingredient-item-syrupglaze-maple": "maple glaze",
+	"game:recipeingredient-item-syrupglaze-maple-insturmentalcase": "maple glaze",
+	"recipeingredient-item-syrupglaze-maple": "maple glaze",
+	"recipeingredient-item-syrupglaze-maple-insturmentalcase": "maple glaze",
+	"recipeingredient-item-syrupglaze-maple-topping": "maple glaze",
+
+	"item-syrupglaze-birch": "Birch glaze",
+	"incontainer-item-syrupglaze-birch": "Birch glaze",
+	"game:incontainer-item-syrupglaze-birch": "Birch glaze",
+	"game:recipeingredient-item-syrupglaze-birch": "birch glaze",
+	"game:recipeingredient-item-syrupglaze-birch-insturmentalcase": "birch glaze",
+	"recipeingredient-item-syrupglaze-birch": "birch glaze",
+	"recipeingredient-item-syrupglaze-birch-insturmentalcase": "birch glaze",
+	"recipeingredient-item-syrupglaze-birch-topping": "birch glaze",
+
+	"item-syrupglaze-honey": "Honey glaze",
+	"incontainer-item-syrupglaze-honey": "Honey glaze",
+	"game:incontainer-item-syrupglaze-honey": "Honey glaze",
+	"itemdesc-syrupglaze-honey": "A sweet glaze simmered from honey and vinegar.",
+	"game:recipeingredient-item-syrupglaze-honey": "honey glaze",
+	"game:recipeingredient-item-syrupglaze-honey-insturmentalcase": "honey glaze",
+	"recipeingredient-item-syrupglaze-honey": "honey glaze",
+	"recipeingredient-item-syrupglaze-honey-insturmentalcase": "honey glaze",
+	"recipeingredient-item-syrupglaze-honey-topping": "honey glaze"
 }
