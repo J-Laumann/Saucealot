@@ -15,7 +15,13 @@
 	},
 	{
 		"ingredients": [
-			{ "type": "item", "code": "game:honeyportion", "quantity": 10 },
+			{
+				"type": "item",
+				"code": "expandedfoods:fruitsyrupportion-*",
+				"quantity": 10,
+				"name": "type",
+				"skipVariants": ["pinkapple", "redapple", "yellowapple", "olive"]
+			},
 			{ "type": "item", "code": "game:vinegarportion", "quantity": 10 }
 		],
 		"simmering": {
@@ -23,7 +29,7 @@
 			"meltingDuration": 100,
 			"smeltedRatio": 1,
 			"smeltingType": "bake",
-			"smeltedStack": { "type": "item", "code": "saucealot:syrupglaze-honey", "quantity": 20 },
+			"smeltedStack": { "type": "item", "code": "saucealot:syrupglaze-{type}", "quantity": 20 },
 			"requiresContainer": false
 		}
 	}

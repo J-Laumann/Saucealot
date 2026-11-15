@@ -1,0 +1,37 @@
+[
+	{
+		"op": "add",
+		"path": "/variantgroups/0/loadFromProperties",
+		"value": "block/fruit",
+		"file": "saucealot:itemtypes/liquid/syrupglaze.json",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/variantgroups/0/states/-",
+		"value": "maple",
+		"file": "saucealot:itemtypes/liquid/syrupglaze.json",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/variantgroups/0/states/-",
+		"value": "birch",
+		"file": "saucealot:itemtypes/liquid/syrupglaze.json",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/variantgroups/0/states/-",
+		"value": "apple",
+		"file": "saucealot:itemtypes/liquid/syrupglaze.json",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"op": "add",
+		"path": "/skipVariants",
+		"value": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
+		"file": "saucealot:itemtypes/liquid/syrupglaze.json",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	}
+]

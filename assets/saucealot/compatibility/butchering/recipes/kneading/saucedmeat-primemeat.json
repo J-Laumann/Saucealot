@@ -10,7 +10,8 @@
 					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
-					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
 				]
 			},
 			{ "inputs": [{ "type": "item", "code": "butchering:primemeat-raw", "quantity": 1 }] }

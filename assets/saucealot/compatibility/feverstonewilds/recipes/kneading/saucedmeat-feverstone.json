@@ -10,7 +10,8 @@
 					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
-					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
 				]
 			},
 			{ "inputs": [{ "type": "item", "code": "feverstonewilds:bisonleg-raw", "quantity": 1 }] }
@@ -28,7 +29,8 @@
 					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
-					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
 				]
 			},
 			{ "inputs": [{ "type": "item", "code": "feverstonewilds:ribs-raw", "quantity": 1 }] }
@@ -46,7 +48,8 @@
 					{ "type": "item", "code": "saucealot:whitegravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:browngravy", "quantity": 10 },
 					{ "type": "item", "code": "saucealot:queso", "quantity": 10 },
-					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 }
+					{ "type": "item", "code": "saucealot:spicyqueso", "quantity": 10 },
+					{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
 				]
 			},
 			{ "inputs": [{ "type": "item", "code": "feverstonewilds:cockatrice-tail-raw", "quantity": 1 }] }

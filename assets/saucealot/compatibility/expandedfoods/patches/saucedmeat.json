@@ -7,8 +7,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:recipes/kneading/saucedmeat.json",
 		"side": "server",
@@ -22,8 +21,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:recipes/kneading/saucedmeat.json",
 		"side": "server",
@@ -37,8 +35,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:recipes/kneading/saucedmeat.json",
 		"side": "server",
@@ -52,8 +49,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:recipes/kneading/saucedmeat.json",
 		"side": "server",
@@ -67,8 +63,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:compatibility/feverstonewilds/recipes/kneading/saucedmeat-feverstone.json",
 		"side": "server",
@@ -82,8 +77,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:compatibility/feverstonewilds/recipes/kneading/saucedmeat-feverstone.json",
 		"side": "server",
@@ -97,8 +91,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:compatibility/feverstonewilds/recipes/kneading/saucedmeat-feverstone.json",
 		"side": "server",
@@ -112,8 +105,7 @@
 			{ "type": "item", "code": "saucealot:mayo", "quantity": 10 },
 			{ "type": "item", "code": "saucealot:tartar", "quantity": 10 },
 			{ "type": "item", "code": "expandedfoods:soysauce", "quantity": 10 },
-			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 },
-			{ "type": "item", "code": "saucealot:syrupglaze-*", "quantity": 10 }
+			{ "type": "item", "code": "expandedfoods:fishsauce", "quantity": 10 }
 		],
 		"file": "saucealot:compatibility/butchering/recipes/kneading/saucedmeat-primemeat.json",
 		"side": "server",
